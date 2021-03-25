@@ -48,3 +48,6 @@ Thumbs.db
 *.mov
 *.wmv
 
+*.txt.user
+*.txt.user*
+*kdev4*
