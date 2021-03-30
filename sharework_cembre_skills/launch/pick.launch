@@ -2,6 +2,7 @@
 
 <launch>
 <arg name="pipeline" default="dirrt" />
+<arg name="collision_detection" default="gpuvoxel" />
 <arg name="load_param" default="load" />
 <arg name="debug" default="false" />
   <arg name="baseline" default="false"/>
@@ -21,8 +22,9 @@
   <param if="$(eval pipeline == 'ompl')" name="manipulator/planning_plugin" value="ompl_interface/OMPLPlanner" />
   <param if="$(eval pipeline == 'human_aware')" name="manipulator/planning_plugin" value="ha_planner/DgacoPlannerManager" />
   <param if="$(eval pipeline == 'dirrt')" name="manipulator/planning_plugin" value="pathplan/DIRRTStar" />
+  <param if="$(eval collision_detection == 'gpuvoxel')" name="manipulator/collision_detection_plugin" value="collision_detection/gpuvoxel/GPUVoxelCollisionPluginLoader" />
   <remap from="/centroids" to="/centroid_detection_rs1/poses" />
 </node>
 
-<node pkg="inbound_pick_test"  type="inbound_pick_test_loader" name="inbound_pick_test_loader" output="screen"/>
+<node pkg="inbound_pick"  type="inbound_pick_loader" name="inbound_pick_loader" output="screen"/>
 </launch>
