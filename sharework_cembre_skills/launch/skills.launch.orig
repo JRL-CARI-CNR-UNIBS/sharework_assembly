@@ -2,7 +2,13 @@
 
 <launch>
 
+<<<<<<< HEAD
+<arg name="fake_gripper" default="true"/>
+<arg name="in_pick_tool" default="/inbound_pick_server/job/pick"/>
+<arg name="in_place_tool" default="/outbound_place_server/job/place"/>
+=======
 <arg name="fake_gripper" default="false"/>
+>>>>>>> b15403c788af5ab7bbf944b1298e1e6e8c2db4b6
 
 <group if="$(arg fake_gripper)">
   <node pkg="manipulation_fake_tool"  type="manipulation_fake_tool_server" name="manipulation_fake_tool_pick" args="/robotiq_gripper" output="screen"/>
@@ -24,7 +30,6 @@
 <arg name="load_param" value="$(arg load_param)"/>
 <arg name="pipeline" value="$(arg pipeline)"/>
 <arg name="baseline" value="$(arg baseline)"/>
-
 </include>
 
 
@@ -33,7 +38,6 @@
 <arg name="load_param" value="$(arg load_param)"/>
 <arg name="pipeline" value="$(arg pipeline)"/>
 <arg name="baseline" value="$(arg baseline)"/>
-
 </include>
 
 
