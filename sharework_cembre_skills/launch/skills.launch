@@ -2,7 +2,7 @@
 
 <launch>
 
-<arg name="fake_gripper" default="false"/>
+<arg name="fake_gripper" default="true"/>
 <arg name="in_pick_tool" default="/inbound_pick_server/job/pick"/>
 <arg name="in_place_tool" default="/outbound_place_server/job/place"/>
 

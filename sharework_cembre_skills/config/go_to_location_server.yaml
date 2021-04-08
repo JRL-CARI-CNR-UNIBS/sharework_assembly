@@ -9,7 +9,8 @@ go_to_location_server:
 
   ik_sol_number: 16
   max_stall_iter: 16
-  
+  collision_detector: FCL
+
   groups:
     manipulator: open_tip
      
