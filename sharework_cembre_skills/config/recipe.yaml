@@ -1,24 +1,24 @@
 multi_skills:
   group_name: "manipulator"
   recipe:
-  - {action: "goto",  description: ["warehouse2"],                        tool_id: "",              property_pre_execution_id: "open",  property_execution_id: "",      property_post_execution_id: ""}
-  - {action: "pick",  description: ["squadra_piccola"],                   tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "close", property_post_execution_id: ""}
-  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "open",  property_post_execution_id: ""}
-  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "close", property_post_execution_id: ""}
-  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "open",  property_post_execution_id: ""}
-  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "close", property_post_execution_id: ""}
-  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "open",  property_post_execution_id: ""}
-  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "close", property_post_execution_id: ""}
-  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "open",  property_post_execution_id: ""}
-  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "close", property_post_execution_id: ""}
-  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "open",  property_post_execution_id: ""}
-  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "close", property_post_execution_id: ""}
-  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "open",  property_post_execution_id: ""}
-  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "close", property_post_execution_id: ""}
-  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "open",  property_post_execution_id: ""}
-  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "close", property_post_execution_id: ""}
-  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "open",  property_post_execution_id: ""}
-  - {action: "pick",  description: ["squadra_grande"],                    tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "close", property_post_execution_id: ""}
-  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       tool_id: "gripper_fake",  property_pre_execution_id: "",      property_execution_id: "open",  property_post_execution_id: ""}
-  - {action: "goto",  description: ["home"],                              tool_id: "",              property_pre_execution_id: "",      property_execution_id: "",      property_post_execution_id: "close"}
+  - {action: "goto",  description: ["warehouse2"],                        to_loc_ctrl_id: "trj_tracker",        tool_id: "gripper_fake",  property_exec_id: "open"    }
+  - {action: "pick",  description: ["squadra_piccola"],                   approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "close"   }
+  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "open"    }
+  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "close"   }
+  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "open"    }
+  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "close"   }
+  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "open"    }
+  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "close"   }
+  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "open"    }
+  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "close"   }
+  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "open"    }
+  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "close"   }
+  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "open"    }
+  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "close"   }
+  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "open"    }
+  - {action: "pick",  description: ["squadra_grande","squadra_piccola"],  approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "close"   }
+  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "open"    }
+  - {action: "pick",  description: ["squadra_grande"],                    approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "close"   }
+  - {action: "place", description: ["B1","B2","B3","A1","A2","A3"],       approach_loc_ctrl_id: "trj_tracker",  tool_id: "gripper_fake",  property_exec_id: "open"    }
+  - {action: "goto",  description: ["home"],                              to_loc_ctrl_id: "trj_tracker",        tool_id: "gripper_fake",  property_exec_id: "close"   }
 
