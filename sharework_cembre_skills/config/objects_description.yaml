@@ -9,6 +9,13 @@ cube:
   - {tool: "open_tip", position: [0, 0, 0.010], quaternion: [ 0, 0, 0.7071068, 0.7071068 ]}
   - {tool: "open_tip", position: [0, 0, 0.010], quaternion: [ 0, 0, -0.7071068, 0.7071068 ]}
 
+piece:
+  color: [1,0.8,0,1.]
+  box:  [0.05,0.05,0.01]
+
+  offset: [0,0,0] #
+  grasp_poses:
+  - {tool: "open_tip", position: [0, 0, 0.002], quaternion: [0,0,0,1]}
 
 pin:
   color: [1,0.8,0,0.8]

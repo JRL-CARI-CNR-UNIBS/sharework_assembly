@@ -11,3 +11,4 @@ inbound:
   - {type: "squadra_grande",  frame: "table", position: [ 0.061, 0.803, 0.001], quaternion: [ 0, 0, -0.7071068, 0.7071068 ], inbound: "sg3", approach_distance: [0, 0, 0.15]}
   - {type: "squadra_grande",  frame: "table", position: [ 0.061, 0.930, 0.001], quaternion: [ 0, 0, -0.7071068, 0.7071068 ], inbound: "sg4", approach_distance: [0, 0, 0.15]}
 
+  - {type: "piece",  frame: "table", position: [ 0.061, 0.930, 0.001], quaternion: [ 0, 0, -0.7071068, 0.7071068 ], inbound: "piece_area", approach_distance: [0, 0, 0.15]}
