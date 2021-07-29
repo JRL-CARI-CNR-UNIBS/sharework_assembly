@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
 <launch>
-
-<arg name="fake_gripper" default="true"/>
+<!--
+<arg name="fake_gripper" default="false"/>
 
 <group if="$(arg fake_gripper)">
   <node pkg="manipulation_fake_tool"  type="manipulation_fake_tool_server" name="manipulation_fake_tool_pick" args="/robotiq_gripper" output="screen"/>
@@ -11,7 +11,7 @@
 <group unless="$(arg fake_gripper)">
   <node pkg="robotiq_ur_modbus"  type="test_robotiq_ros.py" name="robotiq_ur_modbus_pick" args="/robotiq_gripper" output="screen"/>
 </group>
-
+-->
 <arg name="pipeline" default="dirrt" />
 <arg name="load_param" default="load" />
 <arg name="debug" default="false" />
