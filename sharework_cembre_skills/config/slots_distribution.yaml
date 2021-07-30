@@ -6,4 +6,6 @@ outbound:
   - {name: "B1", slots_group: "group_B", frame: "table", max_objects: -1, position: [0.490, 0.708, 0.26], quaternion: [1,0,0,0],                             approach_distance: [0, 0, 0.100]}
   - {name: "B2", slots_group: "group_B", frame: "table", max_objects: -1,  position: [0.490, 0.708, 0.26], quaternion: [0.7071068, -0.7071068, 0.000, 0.000], approach_distance: [0, 0, 0.100]}
   - {name: "B3", slots_group: "group_B", frame: "table", max_objects: -1,  position: [0.490, 0.708, 0.26], quaternion: [0.7071068,  0.7071068, 0.000, 0.000], approach_distance: [0, 0, 0.100]}
-  - {name: "equipment_slot", slots_group: "equipment", frame: "table", max_objects: -1,  position: [0.490, 1.040, 0.26], quaternion: [0.7071068,  0.7071068, 0.000, 0.000], approach_distance: [0, 0, 0.100]}
+  #- {name: "equipment_slot", slots_group: "equipment", frame: "table", max_objects: -1,  position: [0.490, 1.040, 0.26], quaternion: [0.7071068,  0.7071068, 0.000, 0.000], approach_distance: [0, 0, 0.100]}
+  - {name: "equipment_slot", slots_group: "equipment", frame: "table", max_objects: -1,  position: [0.326, 1.44, 0.18], quaternion: [1.0,  0.0, 0.000, 0.000], approach_distance: [0, 0, 0.100]}
+  #- {name: "equipment_slot2", slots_group: "equipment", frame: "table", max_objects: -1,  position: [0.326, 1.443, 0.1], quaternion: [0.0,  0.0, 0.000, 0.000], approach_distance: [0, 0, 0.100]}

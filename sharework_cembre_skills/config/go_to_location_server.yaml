@@ -1,7 +1,11 @@
 go_to_location:
-  - {name: "home",        frame: "table", position: [0.365, 0.864, 0.522], quaternion: [0.044, 0.653, -0.125, 0.745]} #only as example
+  - {name: "home",        frame: "table", position: [-0.228, 0.745, 0.127], quaternion: [0.761, -0.648, -0.033, 0.014]} #only as example
+  - {name: "home3",        frame: "table", position: [-0.364, 0.420, 0.520], quaternion: [-0.464, -0.462, 0.585, -0.478]} #only as example
+  - {name: "home2",        frame: "table", position: [0.365, 0.864, 0.522], quaternion: [0.044, 0.653, -0.125, 0.745]} #only as example
   - {name: "desk1",       frame: "table", position: [0.454, 0.705, 0.674], quaternion: [0.707, 0.707, -0.026, -0.029]} #to be updated
   - {name: "warehouse2",  frame: "table", position: [-0.021, 1.813, 0.535], quaternion: [0.993, -0.112, 0.007, -0.042]} #to be updated
+  - {name: "test_start",  frame: "table", position: [0.207, 0.467, 0.340], quaternion: [0.927, -0.341, 0.152, 0.037]} #to be updated
+  - {name: "test_stop",  frame: "table", position: [0.345, 1.594, 0.415], quaternion: [0.878, 0.426, 0.151, -0.155]} #to be updated
 
 
 go_to_location_server:
