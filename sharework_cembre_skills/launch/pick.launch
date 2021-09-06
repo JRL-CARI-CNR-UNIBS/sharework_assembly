@@ -16,8 +16,9 @@
 
 <rosparam command="load" file="$(find sharework_cembre_skills)/config/objects_description.yaml"/>
 <rosparam command="load" file="$(find sharework_cembre_skills)/config/objects_distribution.yaml"/>
+<rosparam command="load" file="$(find sharework_cembre_skills)/config/types_description.yaml"/>
 <rosparam command="load" file="$(find sharework_cembre_skills)/config/inbound_server.yaml"/>
-  
+
 <node pkg="inbound_pick" type="inbound_pick_server" name="inbound_pick_server" launch-prefix="$(arg launch_prefix)" output="screen" >
   <param if="$(eval pipeline == 'ompl')" name="manipulator/planning_plugin" value="ompl_interface/OMPLPlanner" />
   <param if="$(eval pipeline == 'human_aware')" name="manipulator/planning_plugin" value="ha_planner/DgacoPlannerManager" />

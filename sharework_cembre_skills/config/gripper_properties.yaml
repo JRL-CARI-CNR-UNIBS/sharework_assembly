@@ -1,0 +1,6 @@
+gripper_properties:
+- {name: "open", position: 255, velocity: 255, force: 255}
+- {name: "close", position: 255, velocity: 0, force: 0}
+- {name: "pos45soft", position: 45, velocity: 0, force: 0}
+- {name: "pos45hard", position: 45, velocity: 255, force: 255}
+- {name: "pos0hard", position: 255, velocity: 255, force: 255}
