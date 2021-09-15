@@ -1,0 +1,2 @@
+scene_objects:
+- {type: "pieceA", frame: "Marker3", position: [ 0.071, -0.14, 0.0], quaternion: [0,0,0,1]}
