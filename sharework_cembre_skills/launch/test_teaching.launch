@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find sharework_cembre_skills)/launch/test_load_param.launch"></include>
+
+  <arg name="name_space" default="/"/>
+
+  <group ns="$(arg name_space)">
+    <rosparam command="load" file="$(find sharework_cembre_skills)/config/test_scene.yaml"/>
+    <node pkg="object_loader" name="scene_spawner" type="scene_spawner" output="screen"/>
+  </group>
+
+</launch>
