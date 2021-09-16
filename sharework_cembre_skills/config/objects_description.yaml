@@ -1,14 +1,9 @@
 object_geometries:
   pieceA:
     color: [1,0.8,0,1.]
-    box:  [0.07,0.08,0.01]
+    box:  [0.03,0.03,0.01]
 
-    offset: [0,0,-0.005] #
-    grasp_poses:
-    - {tool: "open_tip", position: [0, 0, 0.010], quaternion: [0,0,0,1]}
-    - {tool: "open_tip", position: [0, 0, 0.010], quaternion: [0,0,1,0]}
-    - {tool: "open_tip", position: [0, 0, 0.010], quaternion: [ 0, 0, 0.7071068, 0.7071068 ]}
-    - {tool: "open_tip", position: [0, 0, 0.010], quaternion: [ 0, 0, -0.7071068, 0.7071068 ]}
+    offset: [0.069,-0.012,-0.005] #
 
   mounting_plateA:
     color: [0.2,0.2,0.2,1.0]

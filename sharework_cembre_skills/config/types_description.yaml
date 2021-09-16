@@ -1,39 +1,24 @@
 manipulation_object_types:
-- {
-      "type": "squadra_piccola",
-      "grasp_poses": [{
-          "position": [0, 0, 0.06],
-          "quaternion": [1, 0, 0, 0],
-          "approach_distance": [0, 0, 0.1],
-          "tool": "open_tip"
-      }, {
-          "position": [0, 0, 0.06],
-          "quaternion": [0, 1, 0, 0],
-          "approach_distance": [0, 0, 0.1],
-          "tool": "open_tip"
-      }]
-  }
-- {
-      "type": "cube",
-      "grasp_poses": [{
-          "position": [0, 0, 0.01],
-          "quaternion": [0, 0, 0, 1],
-          "approach_distance": [0, 0, 0.1],
-          "tool": "open_tip"
-      }, {
-          "position": [0, 0, 0.01],
-          "quaternion": [0, 0, 1, 0],
-          "approach_distance": [0, 0, 0.1],
-          "tool": "open_tip"
-      }, {
-          "position": [0, 0, 0.01],
-          "quaternion": [0, 0, 0.707107, 0.707107],
-          "approach_distance": [0, 0, 0.1],
-          "tool": "open_tip"
-      }, {
-          "position": [0, 0, 0.01],
-          "quaternion": [0, 0, -0.707107, 0.707107],
-          "approach_distance": [0, 0, 0.1],
-          "tool": "open_tip"
-      }]
-  }
+- grasp_poses:
+  - approach_distance:
+    - 0.0
+    - 0.0
+    - -0.1
+    gripper_force: 100.0
+    leave_distance:
+    - 0.0
+    - 0.0
+    - -0.1
+    position:
+    - 0.069494
+    - -0.011489
+    - -0.029686
+    post_gripper_position: 0.0
+    pre_gripper_position: 85.0
+    quaternion:
+    - -0.702856
+    - 0.71049
+    - -0.034466
+    - 0.003058
+    tool: open_tip
+  type: pieceA
