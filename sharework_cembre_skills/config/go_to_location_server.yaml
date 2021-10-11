@@ -1,28 +1,28 @@
 go_to_location:
-  - {name: "home",        frame: "table", position: [-0.228, 0.745, 0.127], quaternion: [0.761, -0.648, -0.033, 0.014]} #only as example
-  - {name: "home3",        frame: "table", position: [-0.364, 0.420, 0.520], quaternion: [-0.464, -0.462, 0.585, -0.478]} #only as example
-  - {name: "home2",        frame: "table", position: [0.365, 0.864, 0.522], quaternion: [0.044, 0.653, -0.125, 0.745]} #only as example
-  - {name: "desk1",       frame: "table", position: [0.454, 0.705, 0.674], quaternion: [0.707, 0.707, -0.026, -0.029]} #to be updated
-  - {name: "warehouse2",  frame: "table", position: [-0.021, 1.813, 0.535], quaternion: [0.993, -0.112, 0.007, -0.042]} #to be updated
-  - {name: "test_start",  frame: "table", position: [0.207, 0.467, 0.340], quaternion: [0.927, -0.341, 0.152, 0.037]} #to be updated
+  - {name: "home",       frame: "table", position: [-0.228, 0.745, 0.127], quaternion: [0.761, -0.648, -0.033, 0.014]} #only as example
+  - {name: "home3",      frame: "table", position: [-0.364, 0.420, 0.520], quaternion: [-0.464, -0.462, 0.585, -0.478]} #only as example
+  - {name: "home2",      frame: "table", position: [0.365, 0.864, 0.522], quaternion: [0.044, 0.653, -0.125, 0.745]} #only as example
+  - {name: "desk1",      frame: "table", position: [0.454, 0.705, 0.674], quaternion: [0.707, 0.707, -0.026, -0.029]} #to be updated
+  - {name: "warehouse2", frame: "table", position: [-0.021, 1.813, 0.535], quaternion: [0.993, -0.112, 0.007, -0.042]} #to be updated
+  - {name: "test_start", frame: "table", position: [0.207, 0.467, 0.340], quaternion: [0.927, -0.341, 0.152, 0.037]} #to be updated
   - {name: "test_stop",  frame: "table", position: [0.345, 1.594, 0.415], quaternion: [0.878, 0.426, 0.151, -0.155]} #to be updated
 
 
 go_to_location_server:
 
-  ik_sol_number: 512
-  max_stall_iter: 512
+  ik_sol_number: 16
+  max_stall_iter: 16
   collision_detector: FCL
 
   groups:
     manipulator: open_tip
 
   manipulator:
-    preferred_configuration: [1.248980837684973, -1.2228279109171156, 1.9792593061627755, -2.2428737618677026, 1.553286774142281, 3.2935401617108626]
+    preferred_configuration: [-1.7957027594195765, -1.0131495755961915, -2.2669668197631836, -1.5779878101744593, 4.6301045417785645, -0.0559466520892542]
     #preferred_configuration: [1.4762239456176758, -1.7016049824156703, 1.7525199095355433, -0.6964729589274903, 1.4800915718078613, -2.1354430357562464]
 
     preferred_configuration_weight: [0, 1, 1, 1, 1, 1]
-    max_ik_goal_number: 512
+    max_ik_goal_number: 16
     use_single_goal: false
 
   request_adapters:

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+  <include file="$(find sharework_cembre_skills)/launch/interface_skills.launch" />
+  <include file="$(find manipulation_interface_gui)/launch/interface.launch" />
+</launch>
