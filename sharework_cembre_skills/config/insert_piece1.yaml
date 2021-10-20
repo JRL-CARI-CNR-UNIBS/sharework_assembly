@@ -2,7 +2,8 @@ subjobs_list:
   touch_z:        {next_state_if_success: "touch_z_refine", next_state_if_fail: "FAIL", type: "Touch",   goal_twist: [0,0,-0.001,0,0,0],   goal_twist_frame: "world", target_force: 15, relative_target: False, release_condition: "Force",    release_force: 5}
   touch_z_refine: {next_state_if_success: "touch_x",        next_state_if_fail: "FAIL", type: "Touch",   goal_twist: [0,0,-0.0005,0,0,0],  goal_twist_frame: "world", target_force: 10, relative_target: False, release_condition: "Position", release_position: 0.0005}
   touch_x:        {next_state_if_success: "touch_y",        next_state_if_fail: "FAIL", type: "Touch",   goal_twist: [0.0005,0,0,0,0,0],   goal_twist_frame: "world", target_force: 15, relative_target: False, release_condition: "Position", release_position: 0.0005}
-  touch_y:        {next_state_if_success: "move_back",        next_state_if_fail: "FAIL", type: "Touch",   goal_twist: [0.0,0.005,0,0,0,0],  goal_twist_frame: "world", target_force: 15, relative_target: False, release_condition: "Position", release_position: 0.0005}
-  move_back:      {next_state_if_success: "SUCCESS",      next_state_if_fail: "FAIL", type: "RelativeMove", frame: "TOOL", position: [0.0,0.0,-0.1], orientation: [0,0,0,1]}
-  # close_gripper:  {next_state_if_success: "SUCCESS",        next_state_if_fail: "FAIL", type: "Gripper", position: 0, force: 100, velocity: 30}
-initial_state: move_up
+  touch_y:        {next_state_if_success: "open_gripper",   next_state_if_fail: "FAIL", type: "Touch",   goal_twist: [0.0,0.005,0,0,0,0],  goal_twist_frame: "world", target_force: 15, relative_target: False, release_condition: "Position", release_position: 0.0005}
+  open_gripper:   {next_state_if_success: "move_back",      next_state_if_fail: "FAIL", type: "Gripper", position: 40, force: 100, velocity: 30}
+  move_back:      {next_state_if_success: "SUCCESS",        next_state_if_fail: "FAIL", type: "RelativeMove", frame: "TOOL", position: [0.0,0.0,-0.03], orientation: [0,0,0,1]}
+  close_gripper:  {next_state_if_success: "SUCCESS",        next_state_if_fail: "FAIL", type: "Gripper", position: 0, force: 100, velocity: 30}
+initial_state: touch_z
