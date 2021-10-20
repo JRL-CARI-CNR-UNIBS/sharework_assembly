@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+  <!-- <include file="$(find manipulation_interface_example)/launch/green_cube_scene_spawner.launch" />
+  <include file="$(find manipulation_interface_example)/launch/light_blue_cube_scene_spawner.launch" />
+  <include file="$(find manipulation_interface_example)/launch/pink_cube_scene_spawner.launch" />
+  <include file="$(find manipulation_interface_example)/launch/white_cube_scene_spawner.launch" />
+  <include file="$(find manipulation_interface_example)/launch/yellow_cube_scene_spawner.launch" /> -->
+
+  <arg name="name_space" default="/"/>
+
+  <group ns="$(arg name_space)">
+    <rosparam command="load" file="$(find sharework_cembre_skills)/config/test_programming.yaml"/>
+    <node pkg="object_loader" name="scene_spawner" type="scene_spawner" output="screen"/>
+  </group>
+
+</launch>

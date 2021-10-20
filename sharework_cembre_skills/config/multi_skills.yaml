@@ -1,3 +1,15 @@
 multi_skills:
   group_name:
   - "manipulator"
+
+  recipes:
+  - {name: "first_recipe", recipe: ["go_to_home","pick_sg","place_all","go_to_home"]}
+  - {name: "second_recipe", recipe: ["go_to_home","pick_cube","place_A","go_to_home"]}
+
+  tasks:
+  - {name: "go_to_home", type: "goto", description: "robot_go_to_home_position", agent: ["robot"], goal: ["home"]}
+  - {name: "go_to_desk", type: "goto", description: "robot_go_to_desk_position", agent: ["robot"], goal: ["desk1"]}
+  - {name: "pick_cube", type: "pick", description: "robot_pick_a_cube", agent: ["robot"], goal: ["cube"]}
+  - {name: "pick_sg", type: "pick", description: "robot_pick_a_squadra_piccola", agent: ["robot"], goal: ["squadra_grande"]}
+  - {name: "place_all", type: "place", description: "robot_place_the_object_everywhere", agent: ["robot"], goal: ["group_A","group_B"]}
+  - {name: "place_A", type: "place", description: "robot_place_the_object_in_an_A_position", agent: ["robot"], goal: ["group_A"]}
