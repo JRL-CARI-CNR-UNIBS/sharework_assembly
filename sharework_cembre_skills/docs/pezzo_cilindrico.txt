@@ -1,0 +1,38 @@
+rosrun tf tf_echo table open_tip
+
+gripper con pezzo cilindrico centrato
+
+presa (apertura gripper: 50mm)
+
+- Translation: [0.302, 0.501, 0.179]
+- Rotation: in Quaternion [0.707, 0.707, -0.003, -0.003]
+
+chiudi massima forza
+
+
+per togliere pezzo cilindrico
+sali fino a:
+- Translation: [0.302, 0.501, 0.282]
+- Rotation: in Quaternion [0.707, 0.707, -0.003, -0.003]
+
+
+
+fissaggio
+
+35mm per prenderlo
+
+posizione fissaggio da inserito
+- Translation: [0.260, 0.502, 0.198]
+- Rotation: in Quaternion [0.707, 0.707, -0.003, -0.003]
+
+salgo
+- Translation: [0.260, 0.501, 0.203]
+- Rotation: in Quaternion [0.707, 0.707, -0.003, -0.003]
+
+sposto
+- Translation: [0.260, 0.446, 0.203]
+- Rotation: in Quaternion [0.707, 0.707, -0.003, -0.003]
+
+mi allontano
+- Translation: [0.260, 0.446, 0.282]
+- Rotation: in Quaternion [0.707, 0.707, -0.003, -0.003]
