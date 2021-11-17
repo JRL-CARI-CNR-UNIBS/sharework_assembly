@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<launch>
 
+<launch>
   <arg name="name_space" default="/"/>
   <rosparam command="load" file="$(find sharework_cembre_skills)/config/objects_description.yaml"/>
 
   <group ns="$(arg name_space)">
-    <rosparam command="load" file="$(find sharework_cembre_skills)/config/test_programming.yaml"/>
+    <rosparam command="load" file="$(find sharework_cembre_skills)/config/test_hamp.yaml"/>
     <node pkg="object_loader" name="scene_spawner" type="scene_spawner" output="screen"/>
   </group>
 
