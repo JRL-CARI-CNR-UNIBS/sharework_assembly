@@ -1,20 +1,37 @@
 subjobs_list:
-  move_down:
-    next_state_if_success: "close_gripper"
+  move_in_z:
+    next_state_if_success: "move_in_y"
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: -90
+    traZmm: -100
     linear_velocity_mm_s: 20
-  close_gripper:
+  move_in_y:
+    next_state_if_success: "push_y"
+    next_state_if_fail: "FAIL"
+    type: RelativeMove
+    frame: table
+    traYmm: 53
+    linear_velocity_mm_s: 20
+  push_y:
+    next_state_if_success: "move_down"
+    next_state_if_fail: "FAIL"
+    type: Touch
+    goal_twist: [0,0,0.001,0,0,0]
+    goal_twist_frame: "world"
+    target_force: 7
+    relative_target: True
+    release_condition: "Force"
+    release_force: 3
+  move_down:
     next_state_if_success: "push_z"
     next_state_if_fail: "FAIL"
-    type: Gripper
-    position: 0
-    force: 100
-    velocity: 100
+    type: RelativeMove
+    frame: table
+    traZmm: -2.5
+    linear_velocity_mm_s: 20
   push_z:
-    next_state_if_success: "push_x"
+    next_state_if_success: "gripper_35"
     next_state_if_fail: "FAIL"
     type: Touch
     goal_twist: [0,0,-0.001,0,0,0]
@@ -23,31 +40,11 @@ subjobs_list:
     relative_target: True
     release_condition: "Force"
     release_force: 3
-  push_x:
-    next_state_if_success: "push_x"
-    next_state_if_fail: "FAIL"
-    type: Touch
-    goal_twist: [0.0005,0,0,0,0,0]
-    goal_twist_frame: "world"
-    target_force: 7
-    relative_target: True
-    release_condition: "Force"
-    release_force: 3
-  push_y:
-    next_state_if_success: "gripper_50"
-    next_state_if_fail: "FAIL"
-    type: Touch
-    goal_twist: [0,0.0005,0,0,0,0]
-    goal_twist_frame: "world"
-    target_force: 7
-    relative_target: True
-    release_condition: "Force"
-    release_force: 3
-  gripper_50:
+  gripper_35:
     next_state_if_success: "move_up"
     next_state_if_fail: "FAIL"
     type: Gripper
-    position: 50
+    position: 35
     force: 100
     velocity: 100
   move_up:
@@ -55,7 +52,8 @@ subjobs_list:
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: 90
+    traZmm: 80
     linear_velocity_mm_s: 20
 
-initial_state: move_down
+
+initial_state: move_in_z
