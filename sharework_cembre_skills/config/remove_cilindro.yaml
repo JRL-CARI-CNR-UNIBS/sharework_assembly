@@ -11,8 +11,8 @@ subjobs_list:
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: -90
-    linear_velocity_mm_s: 20
+    traZmm: -101
+    linear_velocity_mm_s: 15
   push_z:
     next_state_if_success: "close_gripper"
     next_state_if_fail: "FAIL"
@@ -22,7 +22,7 @@ subjobs_list:
     target_force: 7
     relative_target: True
     release_condition: "Position"
-    release_position: 0.001
+    release_position: 0.002
   close_gripper:
     next_state_if_success: "move_up"
     next_state_if_fail: "FAIL"
@@ -36,6 +36,6 @@ subjobs_list:
     type: RelativeMove
     frame: table
     traZmm: 90
-    linear_velocity_mm_s: 20
+    linear_velocity_mm_s: 15
 
 initial_state: gripper_50

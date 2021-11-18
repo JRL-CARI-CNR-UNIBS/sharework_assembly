@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+
+  <rosparam command="load" file="$(find sharework_cembre_skills)/config/insert_staffa_cilindro.yaml"/>
+  <node pkg="manipulation_job_base" name="insert_staffa_cilindro" type="push_gripper.py" output="screen"/>
+
+</launch>

@@ -6,9 +6,17 @@ go_to_location:
   - {name: "warehouse2",                     frame: "table", position: [-0.021, 1.813, 0.535], quaternion: [0.993, -0.112, 0.007, -0.042]} #to be updated
   - {name: "test_start",                     frame: "table", position: [0.207, 0.467, 0.340], quaternion: [0.927, -0.341, 0.152, 0.037]} #to be updated
   - {name: "test_stop",                      frame: "table", position: [0.345, 1.594, 0.415], quaternion: [0.878, 0.426, 0.151, -0.155]} #to be updated
-  - {name: "pezzo_cilindrico",               frame: "table", position: [0.345, 1.594, 0.282], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "pezzo_cilindrico",               frame: "table", position: [0.302, 0.501, 0.282], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
   - {name: "remove_staffa_pezzo_cilindrico", frame: "table", position: [0.260, 0.502, 0.240], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-  - {name: "insert_staffa_pezzo_cilindrico", frame: "table", position: [0.260, 0.446, 0.282], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "insert_staffa_pezzo_cilindrico", frame: "table", position: [0.260, 0.448, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "presa_staffa",                   frame: "table", position: [0.001, 0.391, 0.025], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "presa_staffa_up_tmp",            frame: "table", position: [0.001, 0.391, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "cilindro_inbound",               frame: "table", position: [0.071, 0.623, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "cilindro_inbound_up_tmp",        frame: "table", position: [0.071, 0.623, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "lavorato_inbound",               frame: "table", position: [0.071, 0.919, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "lavorato_inbound_up_tmp",        frame: "table", position: [0.071, 0.919, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+ 
+
 
 go_to_location_server:
 

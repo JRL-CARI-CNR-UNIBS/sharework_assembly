@@ -4,58 +4,58 @@ subjobs_list:
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: -90
-    linear_velocity_mm_s: 20
+    traZmm: -91
+    linear_velocity_mm_s: 10
   close_gripper:
-    next_state_if_success: "push_z"
+    next_state_if_success: "push_x"
     next_state_if_fail: "FAIL"
     type: Gripper
     position: 0
     force: 100
     velocity: 100
-  push_z:
-    next_state_if_success: "push_x"
-    next_state_if_fail: "FAIL"
-    type: Touch
-    goal_twist: [0,0,-0.001,0,0,0]
-    goal_twist_frame: "world"
-    target_force: 7
-    relative_target: True
-    release_condition: "Force"
-    release_force: 3
   push_x:
-    next_state_if_success: "push_x"
+    next_state_if_success: "push_z"
     next_state_if_fail: "FAIL"
     type: Touch
     goal_twist: [0.0005,0,0,0,0,0]
     goal_twist_frame: "world"
-    target_force: 7
+    target_force: 10
     relative_target: True
-    release_condition: "Force"
-    release_force: 3
-  push_y:
+    release_condition: "Position"
+    release_position: 0.0015
+  push_z:
     next_state_if_success: "gripper_50"
     next_state_if_fail: "FAIL"
     type: Touch
-    goal_twist: [0,0.0005,0,0,0,0]
+    goal_twist: [0,0,-0.0005,0,0,0]
     goal_twist_frame: "world"
-    target_force: 7
+    target_force: 3
     relative_target: True
-    release_condition: "Force"
-    release_force: 3
+    release_condition: "Position"
+    release_position: 0.0005
   gripper_50:
-    next_state_if_success: "move_up"
+    next_state_if_success: "push_z_final"
     next_state_if_fail: "FAIL"
     type: Gripper
     position: 50
     force: 100
     velocity: 100
+  push_z_final:
+    next_state_if_success: "move_up"
+    next_state_if_fail: "FAIL"
+    type: Touch
+    goal_twist: [0,0,-0.0015,0,0,0]
+    goal_twist_frame: "world"
+    target_force: 40
+    relative_target: True
+    release_condition: "Position"
+    release_position: 0.0005
   move_up:
     next_state_if_success: "SUCCESS"
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
     traZmm: 90
-    linear_velocity_mm_s: 20
+    linear_velocity_mm_s: 15
 
 initial_state: move_down
