@@ -1,0 +1,15 @@
+rosrun tf tf_echo table open_tip
+
+apri slitta
+
+- Translation: [0.273, -0.578, 1.084]
+- Rotation: in Quaternion [0.707, -0.707, 0.000, 0.000]
+
+scorri slitta
+- Translation: [0.273, -0.517, 1.084]
+- Rotation: in Quaternion [0.707, -0.707, 0.000, 0.000]
+
+
+presa pezzo (gripper 45 mm)
+- Translation: [0.326, -0.553, 1.069]
+- Rotation: in Quaternion [-0.070, 0.996, 0.049, 0.015]

@@ -15,13 +15,13 @@ go_to_location:
   - {name: "cilindro_inbound_up_tmp",        frame: "table", position: [0.071, 0.623, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
   - {name: "lavorato_inbound",               frame: "table", position: [0.071, 0.919, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
   - {name: "lavorato_inbound_up_tmp",        frame: "table", position: [0.071, 0.919, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
- 
+
 
 
 go_to_location_server:
 
   ik_sol_number: 16
-  max_stall_iter: 160
+  max_stall_iter: 1600
   collision_detector: FCL
 
   groups:
@@ -32,8 +32,11 @@ go_to_location_server:
     #preferred_configuration: [1.4762239456176758, -1.7016049824156703, 1.7525199095355433, -0.6964729589274903, 1.4800915718078613, -2.1354430357562464]
 
     preferred_configuration_weight: [0, 1, 1, 1, 1, 1]
-    max_ik_goal_number: 16
+    max_ik_goal_number: 32
     use_single_goal: false
+    upper_bound: [ 2.6, -0.087266462599717, 2.6,  3.14,  3.14,  3.14]
+    lower_bound: [-2.6, -2.26892802759263, -2.0, -3.14, -3.14, -3.14]
+
 
   request_adapters:
   - default_planner_request_adapters/AddTimeParameterization
