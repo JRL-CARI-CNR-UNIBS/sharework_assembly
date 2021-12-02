@@ -1,0 +1,23 @@
+rosrun tf tf_echo table open_tip
+
+presa prezzo  (gripper 20 mm)
+
+- Translation: [0.299, -0.534, 1.140]
+- Rotation: in Quaternion [0.707, -0.707, 0.000, 0.000]
+
+uscita 1
+- Translation: [0.299, -0.547, 1.140]
+- Rotation: in Quaternion [0.707, -0.707, 0.000, 0.000]
+
+uscita 2
+- Translation: [0.299, -0.547, 1.201]
+- Rotation: in Quaternion [0.707, -0.707, 0.000, 0.000]
+
+
+qui tocca sotto
+- Translation: [0.299, -0.547, 1.132]
+- Rotation: in Quaternion [0.707, -0.707, 0.000, 0.000]
+
+risali
+- Translation: [0.299, -0.543, 1.141]
+- Rotation: in Quaternion [0.707, -0.707, 0.000, 0.000]
