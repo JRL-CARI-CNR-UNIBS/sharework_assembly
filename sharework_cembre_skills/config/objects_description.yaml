@@ -111,3 +111,21 @@ object_geometries:
     box:  [0.04,0.04,0.175]
     offset_quaternion: [ 0, 0, 0, 1 ]
     offset: [0, 0, 0.09]
+
+
+  obstacle_prove_cembre:
+    color: [1.0,1.0,1.0,1.0]
+    box:  [0.30,0.40,0.21]
+    offset: [0.0,0.0,0.11] #
+
+  cylinder_cembre_small:
+    color: [1, 1, 0, 1]
+    box:  [0.045,0.045,0.021]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.0135]
+
+  cylinder_cembre_big:
+    color: [1, 1, 0, 1]
+    box:  [0.055,0.055,0.035]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.0205]

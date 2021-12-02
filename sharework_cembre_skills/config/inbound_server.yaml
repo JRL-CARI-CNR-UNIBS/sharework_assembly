@@ -26,6 +26,8 @@ inbound_pick_server:
     preferred_configuration_weight: [0, 1, 1, 1, 1, 1]
     max_ik_goal_number: 16
     use_single_goal: false
+    upper_bound: [ 2.6, -0.087266462599717, 2.6,  3.14,  3.14,  3.14]
+    lower_bound: [-2.6, -2.26892802759263, -1.0, -3.14, -3.14, -3.14]
 
   request_adapters:
   - default_planner_request_adapters/AddTimeParameterization

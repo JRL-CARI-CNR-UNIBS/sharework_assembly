@@ -41,3 +41,8 @@ blank_piece_location:
  scale: [0.001, 0.001, 0.001]
 
  offset: [0,0,0.00] #
+
+ obstacle_prove_cembre:
+   color: [1.0,1.0,1.0,1.0]
+   box:  [0.30,0.40,0.30]
+   offset: [0.0,0.0,-0.15] #
