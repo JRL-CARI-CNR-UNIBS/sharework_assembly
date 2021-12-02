@@ -1,0 +1,4 @@
+multi_skills:
+  group_name: "manipulator"
+  recipe:
+  - {action: "goto",  description: ["insert_staffa_pezzo_cilindrico"], to_loc_ctrl_id: "trajectory_tracking", job_exec_name: "/ssm_job/exec", tool_id: "",  property_exec_id: "job1"}
