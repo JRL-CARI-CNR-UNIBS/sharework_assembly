@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="manipulation_job_base" name="ssm_job" type="ssm_job_exec.py" output="screen">
+    <rosparam command="load" ns="insert_cilindro" file="$(find sharework_cembre_skills)/config/insert_cilindro.yaml"/>
+    <rosparam command="load" ns="remove_cilindro" file="$(find sharework_cembre_skills)/config/remove_cilindro.yaml"/>
+    <rosparam command="load" ns="insert_staffa_cilindro" file="$(find sharework_cembre_skills)/config/insert_staffa_cilindro.yaml"/>
+    <rosparam command="load" ns="remove_staffa_cilindro" file="$(find sharework_cembre_skills)/config/remove_staffa_cilindro.yaml"/>
+  </node>
+
+</launch>
