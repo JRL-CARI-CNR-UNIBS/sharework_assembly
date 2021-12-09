@@ -6,6 +6,9 @@
     <rosparam command="load" ns="remove_cilindro" file="$(find sharework_cembre_skills)/config/remove_cilindro.yaml"/>
     <rosparam command="load" ns="insert_staffa_cilindro" file="$(find sharework_cembre_skills)/config/insert_staffa_cilindro.yaml"/>
     <rosparam command="load" ns="remove_staffa_cilindro" file="$(find sharework_cembre_skills)/config/remove_staffa_cilindro.yaml"/>
+    <rosparam command="load" ns="remove_piece_tower_left" file="$(find sharework_cembre_skills)/config/remove_piece_tower_left.yaml"/>
+    <rosparam command="load" ns="insert_piece_tower_left" file="$(find sharework_cembre_skills)/config/insert_piece_tower_left.yaml"/>
+    <rosparam command="load" ns="simple_touch_x" file="$(find sharework_cembre_skills)/config/simple_touch_x.yaml"/>
   </node>
 
 </launch>

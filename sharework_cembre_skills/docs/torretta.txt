@@ -14,10 +14,59 @@ uscita 2
 - Rotation: in Quaternion [0.707, -0.707, 0.000, 0.000]
 
 
-qui tocca sotto
+qui tocca sotto  (goto 60)
 - Translation: [0.299, -0.547, 1.132]
 - Rotation: in Quaternion [0.707, -0.707, 0.000, 0.000]
 
 risali
 - Translation: [0.299, -0.543, 1.141]
 - Rotation: in Quaternion [0.707, -0.707, 0.000, 0.000]
+
+
+
+per riscontro laterale
+posizione inizio inserimento
+- Translation: [0.299, -0.546, 1.200]
+- Rotation: in Quaternion [0.707, 0.707, 0.000, 0.000]
+
+quando tocca con il simple_touch_x
+- Translation: [0.188, -0.506, 1.138]
+- Rotation: in Quaternion [0.707, 0.707, 0.000, 0.000]
+
+posizione di riscontro
+- Translation: [0.183, -0.506, 1.138]
+- Rotation: in Quaternion [0.707, 0.707, 0.000, 0.000]
+
+move up 1
+- Translation: [0.183, -0.506, 1.200]
+move y  1
+- Translation: [0.183, -0.546, 1.200]
+
+
+
+0.299, -0.534, 1.140
+- Translation: [0.223, -0.546, 1.189]
+
+- Rotation: in Quaternion [0.707, 0.707, -0.000, 0.000]
+
+
+
+
+
+
+- Translation: [-0.133, -0.640, 0.889]
+- Rotation: in Quaternion [0.707, 0.707, 0.000, 0.000]
+
+
+
+
+chiusura leva cilindro pneumatico (metti movimento cartesiano)
+arriva con pinza chiusa, scendi, apri pinza risali
+- Translation: [0.484, -0.439, 0.929]
+- Rotation: in Quaternion [0.776, -0.630, -0.006, -0.013]
+
+
+apertura leva cilindro pneumatico (metti movimento cartesiano)
+arriva con pinza chiusa, scendi, apri pinza risali
+- Translation: [0.482, -0.523, 0.927]
+- Rotation: in Quaternion [-0.682, 0.731, 0.026, -0.018]

@@ -1,0 +1,13 @@
+subjobs_list:
+  push_x:
+      next_state_if_success: "SUCCESS"
+      next_state_if_fail: "FAIL"
+      type: Touch
+      goal_twist: [0.001,0,0,0,0,0]
+      goal_twist_frame: "world"
+      target_force: 10
+      relative_target: False
+      release_condition: "Position"
+      release_position: 0.005
+
+initial_state: push_x

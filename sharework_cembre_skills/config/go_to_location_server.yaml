@@ -16,8 +16,14 @@ go_to_location:
   - {name: "lavorato_inbound",               frame: "table", position: [0.071, 0.919, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
   - {name: "lavorato_inbound_up_tmp",        frame: "table", position: [0.071, 0.919, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
 
-  - {name: "pick_tower_left",                frame: "table", position: [0.299, -0.534, 1.180], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "pick_tower_left",                frame: "world", position: [0.299, -0.534, 1.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "place_tower_left",               frame: "world", position: [0.183, -0.506, 1.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
 
+  - {name: "pick_object_tower_1",            frame: "world", position: [-0.061, -0.668, 0.925], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
+  - {name: "approach_pick_object_tower_1",   frame: "world", position: [-0.061, -0.668, 1.200], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
+
+  - {name: "pick_object_tower_2",            frame: "world", position: [-0.020, -0.668, 0.925], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
+  - {name: "approach_pick_object_tower_2",   frame: "world", position: [-0.020, -0.668, 1.200], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
 
 
 go_to_location_server:
@@ -29,15 +35,19 @@ go_to_location_server:
   groups:
     manipulator: open_tip
 
+
+
+
+
   manipulator:
-    preferred_configuration: [-1.7957027594195765, -1.0131495755961915, -2.2669668197631836, -1.5779878101744593, 4.6301045417785645, -0.0559466520892542]
+    preferred_configuration: [1.5707963267949, -2.44346095279206, 2.44346095279206,-1.5707963267949, 1.5707963267949, 0]
     #preferred_configuration: [1.4762239456176758, -1.7016049824156703, 1.7525199095355433, -0.6964729589274903, 1.4800915718078613, -2.1354430357562464]
 
     preferred_configuration_weight: [0, 1, 1, 1, 1, 1]
     max_ik_goal_number: 32
     use_single_goal: false
-    upper_bound: [ 2.6, -0.087266462599717, 2.6,  3.14,  3.14,  3.14]
-    lower_bound: [-2.6, -2.26892802759263, -2.0, -3.14, -3.14, -3.14]
+    upper_bound: [ 3.14159265358979, -0.122173, 2.6,  3.14,  3.14,  3.14]
+    lower_bound: [-3.14159265358979, -3.05,    -2.0, -3.14, -3.14, -3.14]
 
 
   request_adapters:

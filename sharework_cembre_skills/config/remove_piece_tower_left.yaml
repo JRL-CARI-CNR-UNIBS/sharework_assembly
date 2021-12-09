@@ -12,8 +12,8 @@ subjobs_list:
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: -40
-    linear_velocity_mm_s: 10
+    traZmm: -60
+    linear_velocity_mm_s: 20
 
 
   close_gripper:
@@ -32,14 +32,14 @@ subjobs_list:
     type: RelativeMove
     frame: table
     traYmm: -13
-    linear_velocity_mm_s: 10
+    linear_velocity_mm_s: 20
 
   exit_2:
-    next_state_if_success: "exit_2"
+    next_state_if_success: "SUCCESS"
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
     traZmm: 60
-    linear_velocity_mm_s: 10
+    linear_velocity_mm_s: 20
 
 initial_state: gripper_20

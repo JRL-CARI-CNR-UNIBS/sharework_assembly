@@ -6,4 +6,4 @@ multi_skills:
     to_loc_ctrl_id: "trajectory_tracking"
     job_exec_name: "/ssm_job/exec"
     tool_id: ""
-    property_exec_id: "job1"
+    property_exec_id: "remove_piece_tower_left"
