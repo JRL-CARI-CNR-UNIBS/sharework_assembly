@@ -16,6 +16,8 @@ go_to_location:
   - {name: "lavorato_inbound",               frame: "table", position: [0.071, 0.919, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
   - {name: "lavorato_inbound_up_tmp",        frame: "table", position: [0.071, 0.919, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
 
+  - {name: "pick_tower_left",                frame: "table", position: [0.299, -0.534, 1.180], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+
 
 
 go_to_location_server:
