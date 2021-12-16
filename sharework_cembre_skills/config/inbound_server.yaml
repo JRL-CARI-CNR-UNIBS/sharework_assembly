@@ -9,7 +9,7 @@ inbound:
 #  - {name: "sg2",            frame: "table",        position: [ 0.045, 0.673, 0.054], quaternion: [0.7071068, -0.7071068, -0.000, -0.000], approach_distance: [0, 0, -0.05], leave_distance: [0, 0, -0.15]} # vettore
 #  - {name: "sg3",            frame: "table",        position: [ 0.045, 0.803, 0.054], quaternion: [0.7071068, -0.7071068, -0.000, -0.000], approach_distance: [0, 0, -0.05], leave_distance: [0, 0, -0.15]} # vettore
 #  - {name: "sg4",            frame: "table",        position: [ 0.045, 0.930, 0.054], quaternion: [0.7071068, -0.7071068, -0.000, -0.000], approach_distance: [0, 0, -0.05], leave_distance: [0, 0, -0.15]} # vettore
-  - {name: "piece_area",     frame: "table",       position: [ 0.004, 1.005, 0.053],  quaternion: [1.000, 0.000, 0.000, 0.000], approach_distance: [0, 0, -0.15], leave_distance: [0, 0, -0.15] } # vettore
+  # - {name: "piece_area",     frame: "table",       position: [ 0.004, 1.005, 0.053],  quaternion: [1.000, 0.000, 0.000, 0.000], approach_distance: [0, 0, -0.15], leave_distance: [0, 0, -0.15] } # vettore
 
 inbound_pick_server:
 
