@@ -1,6 +1,11 @@
 <?xml version="1.0"?>
 
 <launch>
-  <include file="$(find sharework_cembre_skills)/launch/interface_skills.launch" />
+
+  <arg name="pipeline" default="dirrt" />
+
+  <include file="$(find sharework_cembre_skills)/launch/interface_skills.launch">
+  <arg name="pipeline" value="$(arg pipeline)"/>
+  </include>
   <include file="$(find manipulation_interface_gui)/launch/interface.launch" />
 </launch>
