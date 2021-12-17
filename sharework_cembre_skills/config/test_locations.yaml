@@ -1,0 +1,29 @@
+go_to_location:
+  - {name: "guide0",      frame: "table", position: [0.300, 0.200, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "guide1",      frame: "table", position: [0.300, 0.300, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "guide2",      frame: "table", position: [0.300, 0.400, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "guide3",      frame: "table", position: [0.300, 0.500, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "guide4",      frame: "table", position: [0.300, 0.600, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "guide5",      frame: "table", position: [0.300, 0.700, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "guide6",      frame: "table", position: [0.300, 0.800, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "guide7",      frame: "table", position: [0.300, 0.900, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "guide8",      frame: "table", position: [0.300, 1.000, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "guide9",      frame: "table", position: [0.300, 1.100, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "guide10",     frame: "table", position: [0.300, 1.200, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "guide11",     frame: "table", position: [0.300, 1.300, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "guide12",     frame: "table", position: [0.300, 1.400, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "up0",      frame: "table", position: [0.100, 0.400, 0.750], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "up1",      frame: "table", position: [0.100, 0.600, 0.750], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "up2",      frame: "table", position: [0.100, 0.800, 0.750], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "up3",      frame: "table", position: [0.100, 1.000, 0.750], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "up4",      frame: "table", position: [0.100, 1.200, 0.750], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "up5",      frame: "table", position: [0.100, 1.400, 0.750], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "up6",      frame: "table", position: [0.100, 1.600, 0.750], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  #
+  # - {name: "internal0",      frame: "table", position: [-0.300, 0.400, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "internal1",      frame: "table", position: [-0.300, 0.600, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "internal2",      frame: "table", position: [-0.300, 0.800, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "internal3",      frame: "table", position: [-0.300, 1.000, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "internal4",      frame: "table", position: [-0.300, 1.200, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "internal5",      frame: "table", position: [-0.300, 1.400, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "internal6",      frame: "table", position: [-0.300, 1.600, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}

@@ -113,10 +113,21 @@ object_geometries:
     offset: [0, 0, 0.09]
 
 
+
+  colonna:
+    color:  [1.00,1.00,1.0,1.0]
+    box:    [0.50,0.02,0.70]
+    offset: [0.00,0.00,0.35] #
+  tetto:
+    color:  [1.00,1.00,1.0,1.0]
+    box:    [0.50,0.73,0.020]
+    offset: [0.00,0.00,0.010] #
+
+
   obstacle_prove_cembre:
     color: [1.0,1.0,1.0,1.0]
-    box:  [0.30,0.40,0.21]
-    offset: [0.0,0.0,0.11] #
+    box:  [0.50,0.73,0.70]
+    offset: [0.0,0.0,0.35] #
 
   cylinder_cembre_small:
     color: [1, 1, 0, 1]
