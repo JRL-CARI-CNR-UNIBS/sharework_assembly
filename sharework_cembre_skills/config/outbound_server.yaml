@@ -6,8 +6,8 @@ outbound:
 
 outbound_place_server:
 
-  ik_sol_number: 16
-  max_stall_iter: 1600
+  ik_sol_number: 4
+  max_stall_iter: 100
   collision_detector: FCL
 
   groups:
@@ -15,7 +15,6 @@ outbound_place_server:
 
   manipulator:
     preferred_configuration: [1.5707963267949, -2.44346095279206, 2.44346095279206,-1.5707963267949, 1.5707963267949, 0]
-
     preferred_configuration_weight: [1, 1, 1, 1, 1, 1]
     max_ik_goal_number: 32
     use_single_goal: false
