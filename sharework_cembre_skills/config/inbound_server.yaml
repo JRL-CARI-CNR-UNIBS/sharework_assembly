@@ -22,6 +22,7 @@ inbound_pick_server:
 
   manipulator:
     preferred_configuration: [1.5707963267949, -2.44346095279206, 2.44346095279206,-1.5707963267949, 1.5707963267949, 0]
+    #preferred_configuration: [-1.9769910017596644, -0.8349288266948243, -2.292120933532715, -1.6209961376585902, -1.5518959204303187, 0.5749483108520508]
     preferred_configuration_weight: [1, 1, 1, 1, 1, 1]
     max_ik_goal_number: 32
     use_single_goal: false
