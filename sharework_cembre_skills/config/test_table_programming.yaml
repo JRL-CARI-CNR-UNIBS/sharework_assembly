@@ -1,0 +1,27 @@
+scene_objects:
+  # test università
+# - {type: "cube", frame: "table", position: [-0.029, 1.270, 0.015], quaternion: [0,0,0,1]}
+# - {type: "cube", frame: "table", position: [-0.123, 1.432, 0.015], quaternion: [0,0,0,1]}
+# - {type: "cube", frame: "table", position: [-0.172, 1.669, 0.015], quaternion: [0,0,0,1]}
+# - {type: "cube", frame: "table", position: [0.060, 1.097, 0.0], quaternion: [0,0,0,1]}
+# - {type: "cube", frame: "table", position: [0.038, 1.641, 0.0], quaternion: [0,0,0,1]}
+# - {type: "deo", frame: "table", position: [0.029, 0.909, 0.0], quaternion: [0,0,0,1]}
+# - {type: "deo", frame: "table", position: [0.075, 1.474, 0.0], quaternion: [0,0,0,1]}
+# - {type: "deo", frame: "table", position: [-0.068, 1.559, 0.015], quaternion: [0,0,0,1]}
+# - {type: "deo", frame: "table", position: [-0.055, 1.769, 0.015], quaternion: [0,0,0,1]}
+# - {type: "deo", frame: "table", position: [0.056, 1.820, 0.0], quaternion: [0,0,0,1]}
+
+# test obstacle_cembre
+- {type: "cylinder_cembre_big",   frame: "table", position: [0.33, 1.565, 0.24], quaternion: [0,0,0,1]}
+- {type: "cylinder_cembre_big",   frame: "table", position: [0.33, 1.435, 0.24], quaternion: [0,0,0,1]}
+# cube
+#
+# - Translation: [0.060, 1.097, 0.019]
+# - Translation: [0.140, 1.633, 0.219]
+#
+# deo
+# - Translation: [0.029, 0.909, 0.077]
+# - Translation: [0.075, 1.474, 0.078]
+# - Translation: [-0.068, 1.559, 0.067]
+# - Translation: [-0.055, 1.769, 0.078]
+# - Translation: [0.056, 1.820, 0.050]

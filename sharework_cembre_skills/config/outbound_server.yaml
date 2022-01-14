@@ -14,13 +14,13 @@ outbound_place_server:
     manipulator: open_tip
 
   manipulator:
-    preferred_configuration: [-1.7957027594195765, -1.0131495755961915, -2.2669668197631836, -1.5779878101744593, 4.6301045417785645, -0.0559466520892542]
-
-    preferred_configuration_weight: [0, 1, 1, 1, 1, 1]
-    max_ik_goal_number: 64
+    preferred_configuration: [1.5707963267949, -2.44346095279206, 2.44346095279206,-1.5707963267949, 1.5707963267949, 0]
+    #preferred_configuration: [-1.9769910017596644, -0.8349288266948243, -2.292120933532715, -1.6209961376585902, -1.5518959204303187, 0.5749483108520508]
+    preferred_configuration_weight: [1, 1, 1, 1, 1, 1]
+    max_ik_goal_number: 32
     use_single_goal: false
-    upper_bound: [ 2.6, -0.087266462599717, 2.6,  3.14,  3.14,  3.14]
-    lower_bound: [-2.6, -2.26892802759263, -2.0, -3.14, -3.14, -3.14]
+    upper_bound: [ 3.14159265358979, -0.122173, 2.75,  3.14,  3.14,  3.14]
+    lower_bound: [-3.14159265358979, -3.05,    -2.75, -3.14, -3.14, -3.14]
 
 
   request_adapters:
