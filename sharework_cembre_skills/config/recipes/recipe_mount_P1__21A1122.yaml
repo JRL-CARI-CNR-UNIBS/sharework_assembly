@@ -1,0 +1,12 @@
+multi_skills:
+  group_name: "manipulator"
+  recipe:
+  # 21A1122 pezzo cilindrico
+  - {action: "goto",  description: ["Warehouse_grezzo_21A1122_up"],  property_exec_id: "pos_45_force_100_vel_50", job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: ""}
+  - {action: "goto",  description: ["Warehouse_grezzo_21A1122"],     property_exec_id: "pos_0_force_100_vel_50", job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: ""}
+  - {action: "goto",  description: ["Warehouse_grezzo_21A1122_up"],  property_exec_id: "", job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: ""}
+  - {action: "goto",  description: ["P1__pezzo_21A1122"],            property_exec_id: "mount_pezzo_21A1122", job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: ""}
+  - {action: "goto",  description: ["Warehouse_staffa_21A1122_up"],  property_exec_id: "", job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: ""}
+  - {action: "goto",  description: ["Warehouse_staffa_21A1122"],     property_exec_id: "pos_0_force_100_vel_50", job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: ""}
+  - {action: "goto",  description: ["Warehouse_staffa_21A1122_up"],  property_exec_id: "", job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: ""}
+  - {action: "goto",  description: ["P1__staffa_mount_21A1122"],     property_exec_id: "mount_staffa_21A1122", job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: ""}

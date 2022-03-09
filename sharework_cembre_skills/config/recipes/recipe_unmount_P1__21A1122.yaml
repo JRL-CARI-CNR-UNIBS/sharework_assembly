@@ -1,0 +1,22 @@
+multi_skills:
+  group_name: "manipulator"
+  recipe:
+  - {action: "goto",  description: ["P1__staffa_unmount_21A1122"],   property_exec_id: "unmount_staffa_21A1122", to_loc_ctrl_id: "trajectory_tracking", job_exec_name: "/ssm_job/exec", tool_id: ""}
+  - {action: "goto",  description: ["Warehouse_staffa_21A1122_up"],  property_exec_id: "", to_loc_ctrl_id: "trajectory_tracking", job_exec_name: "/ssm_job/exec", tool_id: ""}
+  - {action: "goto",  description: ["Warehouse_staffa_21A1122"],     property_exec_id: "open", job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: ""}
+  - {action: "goto",  description: ["Warehouse_staffa_21A1122_up"],  property_exec_id: "", to_loc_ctrl_id: "trajectory_tracking", job_exec_name: "/ssm_job/exec", tool_id: ""}
+  - {action: "goto",  description: ["P1__pezzo_21A1122"],  property_exec_id: "unmount_pezzo_21A1122", to_loc_ctrl_id: "trajectory_tracking", job_exec_name: "/ssm_job/exec", tool_id: ""}
+  - {action: "goto",  description: ["Warehouse_lavorato_21A1122_up"],  property_exec_id: "", to_loc_ctrl_id: "trajectory_tracking", job_exec_name: "/robotiq_gripper", tool_id: ""}
+  - {action: "goto",  description: ["Warehouse_lavorato_21A1122"],  property_exec_id: "pos_45_force_100_vel_50", job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: ""}
+  - {action: "goto",  description: ["Warehouse_lavorato_21A1122_up"],  property_exec_id: "", to_loc_ctrl_id: "trajectory_tracking", job_exec_name: "/ssm_job/exec", tool_id: ""}
+
+
+# "pezzo_cilindrico",
+# "remove_staffa_pezzo_cilindrico
+# "insert_staffa_pezzo_cilindrico
+# "presa_staffa",
+# "presa_staffa_up_tmp
+# "cilindro_inbound",
+# "cilindro_inbound_up_tmp
+# "lavorato_inbound",
+# "lavorato_inbound_up_tmp
