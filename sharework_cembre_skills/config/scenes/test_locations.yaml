@@ -5,9 +5,9 @@ go_to_location:
   - {name: "P1__staffa_unmount_21A1122", frame: "table", position: [0.260, 0.502, 0.240], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
   - {name: "P1__staffa_mount_21A1122",   frame: "table", position: [0.260, 0.448, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
 
-  - {name: "P2__pezzo_21A1122",          frame: "table", position: [0.300, 1.501, 0.282], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P2__staffa_unmount_21A1122", frame: "table", position: [0.258, 1.502, 0.240], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P2__staffa_mount_21A1122",   frame: "table", position: [0.258, 1.448, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P2__pezzo_21A1122",          frame: "table", position: [0.300, 1.501, 0.280], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P2__staffa_unmount_21A1122", frame: "table", position: [0.258, 1.502, 0.238], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P2__staffa_mount_21A1122",   frame: "table", position: [0.258, 1.448, 0.303], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
 
   - {name: "Warehouse_staffa_21A1122",       frame: "table", position: [0.001, 0.391, 0.025], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
   - {name: "Warehouse_staffa_21A1122_up",    frame: "table", position: [0.001, 0.391, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
