@@ -1,9 +1,16 @@
 object_geometries:
+
+  mounting_area:
+    color: [1,1,1,0.3]
+    box:  [0.3,0.3,0.22]
+    offset: [0.0,0.0,0.11] #
+
   pieceA:
     color: [1,0.8,0,1.]
     box:  [0.03,0.03,0.01]
 
     offset: [0.069,-0.012,-0.005] #
+
 
   mounting_plateA:
     color: [0.2,0.2,0.2,1.0]
@@ -33,9 +40,9 @@ object_geometries:
 
   pin:
     # color: [0.2,0.2,0.2, 0.4]
-    box:  [0.02,0.02,0.03]
+    box:  [0.02,0.02,0.01]
     offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0]
+    offset: [0, 0, 0.005]
 
   squadra_grande:
     # color: [0.2,0.2,0.2, 1.]

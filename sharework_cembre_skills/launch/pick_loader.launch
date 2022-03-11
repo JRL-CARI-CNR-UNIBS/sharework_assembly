@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+<rosparam command="load" file="$(find sharework_cembre_skills)/config/scenes/objects_description.yaml"/>
+<rosparam command="load" file="$(find sharework_cembre_skills)/config/scenes/objects_distribution.yaml"/>
+<rosparam command="load" file="$(find sharework_cembre_skills)/config/scenes/types_description.yaml"/>
+
+<node pkg="inbound_pick"  type="inbound_pick_loader" name="inbound_pick_loader" output="screen"/>
+</launch>
