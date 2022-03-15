@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="name" default=""/>
-  <rosparam command="load" file="$(find sharework_cembre_skills)/config/recipes/$(arg name).yaml"/>
+  <arg name="name" default="multi_skills"/>
+  <rosparam command="load" ns="$(arg name)" file="$(find sharework_cembre_skills)/config/recipes/$(arg name).yaml"/>
   <node pkg="multi_skills_example" name="multi_skills" type="multi_skills_example" output="screen"/>
 </launch>
