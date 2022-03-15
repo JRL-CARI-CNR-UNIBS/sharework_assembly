@@ -1,22 +1,23 @@
 go_to_location:
+  - {name: "home",                           frame: "table", position: [-0.228, 0.745, 0.25], quaternion: [0.761, -0.648, -0.033, 0.014]}
 
   # 21A1122 pezzo cilindrico
-  - {name: "P1__pezzo_21A1122",          frame: "table", position: [0.302, 0.501, 0.282], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P1__staffa_unmount_21A1122", frame: "table", position: [0.260, 0.502, 0.240], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P1__staffa_mount_21A1122",   frame: "table", position: [0.260, 0.448, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P1__pezzo_21A1122",              frame: "table", position: [0.302, 0.501, 0.282], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P1__staffa_unmount_21A1122",     frame: "table", position: [0.260, 0.502, 0.240], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P1__staffa_mount_21A1122",       frame: "table", position: [0.260, 0.448, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
 
-  - {name: "P2__pezzo_21A1122",          frame: "table", position: [0.300, 1.501, 0.280], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P2__staffa_unmount_21A1122", frame: "table", position: [0.258, 1.502, 0.238], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P2__staffa_mount_21A1122",   frame: "table", position: [0.258, 1.448, 0.303], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P2__pezzo_21A1122",              frame: "table", position: [0.300, 1.501, 0.280], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P2__staffa_unmount_21A1122",     frame: "table", position: [0.258, 1.502, 0.238], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P2__staffa_mount_21A1122",       frame: "table", position: [0.258, 1.448, 0.303], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
 
   - {name: "Warehouse_staffa_21A1122",       frame: "table", position: [0.001, 0.391, 0.025], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
   - {name: "Warehouse_staffa_21A1122_up",    frame: "table", position: [0.001, 0.391, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
 
-  - {name: "Warehouse_grezzo_21A1122",           frame: "table", position: [0.071, 0.623, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-  - {name: "Warehouse_grezzo_21A1122_up",        frame: "table", position: [0.071, 0.623, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "Warehouse_grezzo_21A1122",       frame: "table", position: [0.071, 0.623, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "Warehouse_grezzo_21A1122_up",    frame: "table", position: [0.071, 0.623, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
 
-  - {name: "Warehouse_lavorato_21A1122",           frame: "table", position: [0.071, 0.919, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-  - {name: "Warehouse_lavorato_21A1122_up",        frame: "table", position: [0.071, 0.919, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "Warehouse_lavorato_21A1122",     frame: "table", position: [0.071, 0.919, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "Warehouse_lavorato_21A1122_up",  frame: "table", position: [0.071, 0.919, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
 
 
 
@@ -29,59 +30,6 @@ go_to_location:
 
   - {name: "pick_object_tower_2",            frame: "world", position: [-0.020, -0.668, 0.925], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
   - {name: "approach_pick_object_tower_2",   frame: "world", position: [-0.020, -0.668, 1.200], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
-  #
-  # - {name: "home",                           frame: "table", position: [-0.228, 0.745, 0.127], quaternion: [0.761, -0.648, -0.033, 0.014]} #only as example
-  # - {name: "home3",                          frame: "table", position: [-0.364, 0.420, 0.520], quaternion: [-0.464, -0.462, 0.585, -0.478]} #only as example
-  # - {name: "home2",                          frame: "table", position: [0.365, 0.864, 0.522], quaternion: [0.044, 0.653, -0.125, 0.745]} #only as example
-  # - {name: "desk1",                          frame: "table", position: [0.454, 0.705, 0.674], quaternion: [0.707, 0.707, -0.026, -0.029]} #to be updated
-  # - {name: "warehouse2",                     frame: "table", position: [-0.021, 1.813, 0.535], quaternion: [0.993, -0.112, 0.007, -0.042]} #to be updated
-  # - {name: "test_start",                     frame: "table", position: [0.207, 0.467, 0.340], quaternion: [0.927, -0.341, 0.152, 0.037]} #to be updated
-  # - {name: "test_stop",                      frame: "table", position: [0.345, 1.594, 0.415], quaternion: [0.878, 0.426, 0.151, -0.155]} #to be updated
-  # - {name: "guide00",      frame: "table", position: [0.300, 0.200, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide01",      frame: "table", position: [0.300, 0.300, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide02",      frame: "table", position: [0.300, 0.400, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide03",      frame: "table", position: [0.300, 0.500, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide04",      frame: "table", position: [0.300, 0.600, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide05",      frame: "table", position: [0.300, 0.700, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide06",      frame: "table", position: [0.300, 0.800, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide07",      frame: "table", position: [0.300, 0.900, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide08",      frame: "table", position: [0.300, 1.000, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide09",      frame: "table", position: [0.300, 1.100, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide10",      frame: "table", position: [0.300, 1.200, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide11",      frame: "table", position: [0.300, 1.300, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide12",      frame: "table", position: [0.300, 1.400, 0.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  #
-  # - {name: "guide20",      frame: "table", position: [0.140, 0.200, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide21",      frame: "table", position: [0.140, 0.300, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide22",      frame: "table", position: [0.140, 0.400, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide23",      frame: "table", position: [0.140, 0.500, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide24",      frame: "table", position: [0.140, 0.600, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide25",      frame: "table", position: [0.140, 0.700, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide26",      frame: "table", position: [0.140, 0.800, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide27",      frame: "table", position: [0.140, 0.900, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide28",      frame: "table", position: [0.140, 1.000, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide29",      frame: "table", position: [0.140, 1.100, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide30",      frame: "table", position: [0.140, 1.200, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide31",      frame: "table", position: [0.140, 1.300, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide32",      frame: "table", position: [0.140, 1.400, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide33",      frame: "table", position: [0.140, 1.500, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  #
-  #
-  # - {name: "guide40",      frame: "table", position: [0.380, 0.200, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide41",      frame: "table", position: [0.380, 0.300, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide42",      frame: "table", position: [0.380, 0.400, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide43",      frame: "table", position: [0.380, 0.500, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide44",      frame: "table", position: [0.380, 0.600, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide45",      frame: "table", position: [0.380, 0.700, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide46",      frame: "table", position: [0.380, 0.800, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide47",      frame: "table", position: [0.380, 0.900, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide48",      frame: "table", position: [0.380, 1.000, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide49",      frame: "table", position: [0.380, 1.100, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide50",      frame: "table", position: [0.380, 1.200, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide51",      frame: "table", position: [0.380, 1.300, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide52",      frame: "table", position: [0.380, 1.400, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  # - {name: "guide53",      frame: "table", position: [0.380, 1.500, 0.308], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-
 
 go_to_location_server:
   guide00:
