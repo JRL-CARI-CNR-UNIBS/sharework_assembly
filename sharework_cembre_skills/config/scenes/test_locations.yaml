@@ -2,24 +2,32 @@ go_to_location:
   - {name: "home",                           frame: "table", position: [-0.228, 0.745, 0.25], quaternion: [0.761, -0.648, -0.033, 0.014]}
 
   # 21A1122 pezzo cilindrico
-  - {name: "P1__pezzo_21A1122",              frame: "table", position: [0.302, 0.501, 0.282], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P1__staffa_unmount_21A1122",     frame: "table", position: [0.260, 0.502, 0.240], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P1__staffa_mount_21A1122",       frame: "table", position: [0.260, 0.448, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P1__pezzo_21A1122",              frame: "table", position: [0.299, 0.500, 0.322], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P1__staffa_unmount_21A1122",     frame: "table", position: [0.260, 0.502, 0.320], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P1__staffa_mount_21A1122",       frame: "table", position: [0.260, 0.448, 0.345], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
 
-  - {name: "P2__pezzo_21A1122",              frame: "table", position: [0.300, 1.501, 0.280], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P2__staffa_unmount_21A1122",     frame: "table", position: [0.258, 1.502, 0.238], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P2__staffa_mount_21A1122",       frame: "table", position: [0.258, 1.448, 0.303], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P2__pezzo_21A1122",              frame: "table", position: [0.299, 1.499, 0.320], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P2__staffa_unmount_21A1122",     frame: "table", position: [0.260, 1.500, 0.318], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P2__staffa_mount_21A1122",       frame: "table", position: [0.260, 1.446, 0.343], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
 
-  - {name: "Warehouse_staffa_21A1122",       frame: "table", position: [0.001, 0.391, 0.025], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-  - {name: "Warehouse_staffa_21A1122_up",    frame: "table", position: [0.001, 0.391, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "Warehouse_staffa_21A1122",       frame: "table", position: [0.001, 0.891, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "Warehouse_staffa_21A1122_up",    frame: "table", position: [0.001, 0.891, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
 
-  - {name: "Warehouse_grezzo_21A1122",       frame: "table", position: [0.071, 0.623, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-  - {name: "Warehouse_grezzo_21A1122_up",    frame: "table", position: [0.071, 0.623, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "Warehouse_staffa_P1_21A1122",       frame: "table", position: [0.001, 0.391, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "Warehouse_staffa_P1_21A1122_up",    frame: "table", position: [0.001, 0.391, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
 
-  - {name: "Warehouse_lavorato_21A1122",     frame: "table", position: [0.071, 0.919, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-  - {name: "Warehouse_lavorato_21A1122_up",  frame: "table", position: [0.071, 0.919, 0.300], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "Warehouse_staffa_P2_21A1122",       frame: "table", position: [0.001, 1.391, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  - {name: "Warehouse_staffa_P2_21A1122_up",    frame: "table", position: [0.001, 1.391, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
 
+  - {name: "Warehouse_grezzo_1_21A1122",       frame: "table", position: [-0.258, 0.685, 0.102], quaternion: [0.699, 0.707, -0.075, -0.070]} #to be updated
+  - {name: "Warehouse_grezzo_1_21A1122_up",    frame: "table", position: [-0.258, 0.685, 0.202], quaternion: [0.699, 0.707, -0.075, -0.070]} #to be updated
 
+  - {name: "Warehouse_grezzo_2_21A1122",       frame: "table", position: [-0.256, 0.865, 0.102], quaternion: [0.699, 0.707, -0.075, -0.070]} #to be updated
+  - {name: "Warehouse_grezzo_2_21A1122_up",    frame: "table", position: [-0.256, 0.865, 0.202], quaternion: [0.699, 0.707, -0.075, -0.070]} #to be updated
+
+  - {name: "Warehouse_lavorato_21A1122",     frame: "table", position: [-0.174, 1.490, 0.173], quaternion: [0.699, 0.707, -0.075, -0.070]} #to be updated
+  - {name: "Warehouse_lavorato_21A1122_up",  frame: "table", position: [-0.174, 1.490, 0.213], quaternion: [0.699, 0.707, -0.075, -0.070]} #to be updated
+  - {name: "Warehouse_middle",               frame: "table", position: [-0.174, 0.900,  0.35], quaternion: [0.699, 0.707, -0.075, -0.070]} #to be updated
 
 
   - {name: "pick_tower_left",                frame: "world", position: [0.299, -0.534, 1.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated

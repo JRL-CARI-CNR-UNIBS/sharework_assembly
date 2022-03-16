@@ -4,7 +4,7 @@ subjobs_list:
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: -98
+    traZmm: -134
     linear_velocity_mm_s: 15
   move_in_y:
     next_state_if_success: "push_y"
@@ -52,7 +52,7 @@ subjobs_list:
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: 80
+    traZmm: 120
     linear_velocity_mm_s: 50
 
 

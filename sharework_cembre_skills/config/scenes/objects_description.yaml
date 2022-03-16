@@ -1,9 +1,25 @@
 object_geometries:
 
-  mounting_area:
+  mounting_area_P1:
     color: [1,1,1,0.3]
-    box:  [0.3,0.3,0.22]
+    box:  [0.4,0.4,0.30]
     offset: [0.0,0.0,0.11] #
+
+  mounting_area_P2:
+    color: [1,1,1,0.3]
+    box:  [0.4,0.4,0.30]
+    offset: [0.0,0.0,0.15] #
+
+  head_protection:
+    color: [1,1,1,0.3]
+    box:  [0.2,2,0.50]
+    offset: [0.0,0.0,0.0] #
+
+
+  blue_box:
+    color: [1,1,1,0.3]
+    box:  [0.5,0.7,0.08]
+    offset: [0.0,0.0,0.04] #
 
   pieceA:
     color: [1,0.8,0,1.]

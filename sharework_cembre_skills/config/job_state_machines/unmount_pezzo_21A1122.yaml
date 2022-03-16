@@ -11,18 +11,18 @@ subjobs_list:
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: -101
-    linear_velocity_mm_s: 15
+    traZmm: -141
+    linear_velocity_mm_s: 20
   push_z:
     next_state_if_success: "close_gripper"
     next_state_if_fail: "FAIL"
     type: Touch
     goal_twist: [0,0,-0.001,0,0,0]
     goal_twist_frame: "world"
-    target_force: 7
+    target_force: 6
     relative_target: True
     release_condition: "Position"
-    release_position: 0.002
+    release_position: 0.001
   close_gripper:
     next_state_if_success: "move_up"
     next_state_if_fail: "FAIL"
@@ -31,11 +31,31 @@ subjobs_list:
     force: 100
     velocity: 100
   move_up:
+    next_state_if_success: "close_gripper_2"
+    next_state_if_fail: "FAIL"
+    type: RelativeMove
+    frame: table
+    traZmm: 2
+    linear_velocity_mm_s: 2
+  close_gripper_2:
+    next_state_if_success: "move_up_2"
+    next_state_if_fail: "FAIL"
+    type: Gripper
+    position: 0
+    force: 100
+    velocity: 100
+  move_up_2:
+    next_state_if_success: "move_up_3"
+    next_state_if_fail: "FAIL"
+    type: RelativeMove
+    frame: table
+    traZmm: 18
+    linear_velocity_mm_s: 10
+  move_up_3:
     next_state_if_success: "SUCCESS"
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: 100
-    linear_velocity_mm_s: 15
-
+    traZmm: 120
+    linear_velocity_mm_s: 25
 initial_state: gripper_50

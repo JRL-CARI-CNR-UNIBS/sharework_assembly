@@ -1,18 +1,18 @@
 subjobs_list:
   move_down:
-    next_state_if_success: "close_gripper"
+    next_state_if_success: "push_x"
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: -91
+    traZmm: -131
     linear_velocity_mm_s: 10
-  close_gripper:
-    next_state_if_success: "push_x"
-    next_state_if_fail: "FAIL"
-    type: Gripper
-    position: 0
-    force: 100
-    velocity: 100
+  # close_gripper:
+  #   next_state_if_success: "push_x"
+  #   next_state_if_fail: "FAIL"
+  #   type: Gripper
+  #   position: 0
+  #   force: 100
+  #   velocity: 100
   push_x:
     next_state_if_success: "push_z"
     next_state_if_fail: "FAIL"
@@ -34,6 +34,13 @@ subjobs_list:
     release_condition: "Position"
     release_position: 0.0005
   gripper_50:
+    next_state_if_success: "gripper_50_2"
+    next_state_if_fail: "FAIL"
+    type: Gripper
+    position: 50
+    force: 100
+    velocity: 100
+  gripper_50_2:
     next_state_if_success: "push_z_final"
     next_state_if_fail: "FAIL"
     type: Gripper
@@ -55,7 +62,7 @@ subjobs_list:
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: 90
+    traZmm: 130
     linear_velocity_mm_s: 15
 
 initial_state: move_down
