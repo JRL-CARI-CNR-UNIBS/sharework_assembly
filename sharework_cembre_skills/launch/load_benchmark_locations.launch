@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<rosparam command="load" file="$(find sharework_cembre_skills)/config/scenes/benchmark_locations.yaml"/>
+
+<node pkg="go_to_location"  type="go_to_location_loader" name="benchmark_loader" output="screen"/>
+</launch>
