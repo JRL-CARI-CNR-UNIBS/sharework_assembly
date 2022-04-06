@@ -1,5 +1,11 @@
 inbound:
   objects:
-   - {type: "pin",  frame: "Warehouse_staffa_21A1122",   position: [ 0.0, 0.0, 0.0], quaternion: [0,0,0,1], inbound: "Warehouse_staffa_21A1122"}
-   #- {type: "pin",  frame: "Warehouse_grezzo_21A1122",   position: [ 0.0, 0.0, 0.0], quaternion: [0,0,0,1], inbound: "Warehouse_grezzo_21A1122"}
-   #- {type: "pin",  frame: "Warehouse_lavorato_21A1122", position: [ 0.0, 0.0, 0.0], quaternion: [0,0,0,1], inbound: "Warehouse_lavorato_21A1122"}
+   - {type: "A1652",  frame: "table",   position: [-0.353, 0.492, 0.150], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
+   - {type: "A1652",  frame: "table",   position: [-0.276, 0.496, 0.147], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
+   - {type: "A1652",  frame: "table",   position: [-0.163, 0.492, 0.142], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
+   - {type: "A1652",  frame: "table",   position: [-0.317, 0.490, 0.152], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
+   - {type: "A1652",  frame: "table",   position: [-0.240, 0.496, 0.144], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
+   - {type: "A1652",  frame: "table",   position: [-0.202, 0.496, 0.142], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
+
+   - {type: "A1653",  frame: "table",   position: [-0.334, 0.846, 0.144], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage1_A1653"}
+   - {type: "A1653",  frame: "table",   position: [-0.182, 0.846, 0.137], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage1_A1653"}

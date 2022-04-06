@@ -1,5 +1,5 @@
 inbound:
   boxes:
-  - {name: "Warehouse_staffa_21A1122",       frame: "table", position: [0.001, 0.391, 0.025], quaternion: [0.70717, 0.70717, 0.0, 0.0], approach_distance: [0, 0, -0.10], leave_distance: [0, 0, -0.10]} 
-  - {name: "Warehouse_grezzo_21A1122",       frame: "table", position: [0.071, 0.623, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0], approach_distance: [0, 0, -0.10], leave_distance: [0, 0, -0.10]}
-  - {name: "Warehouse_lavorato_21A1122",     frame: "table", position: [0.071, 0.919, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0], approach_distance: [0, 0, -0.10], leave_distance: [0, 0, -0.10]}
+  - {name: "Storage0_A1652",                  frame: "table", position: [-0.255, 0.492, 0.17], quaternion: [1.0, 0.0, 0.0, 0.0], approach_distance: [0, 0, -0.05], leave_distance: [0, 0, -0.05]}
+  - {name: "Storage1_A1653",                  frame: "table", position: [-0.255, 0.621, 0.17], quaternion: [1.0, 0.0, 0.0, 0.0], approach_distance: [0, 0, -0.05], leave_distance: [0, 0, -0.05]}
+  - {name: "Storage2_A1650",                  frame: "table", position: [-0.255, 0.846, 0.17], quaternion: [1.0, 0.0, 0.0, 0.0], approach_distance: [0, 0, -0.05], leave_distance: [0, 0, -0.05]}

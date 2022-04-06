@@ -96,3 +96,42 @@ manipulation_object_types:
           "gripper_force": 100.0
       }]
   }
+- {
+      "type": "A1650",
+      "grasp_poses": [{
+          "position": [0, 0, 0.000],
+          "quaternion": [0, 0, 0, 1],
+          "approach_distance": [0, 0, -0.05],
+          "leave_distance": [0, 0, -0.05],
+          "tool": "open_tip",
+          "pre_gripper_position": 15.0,
+          "post_gripper_position": 0.0,
+          "gripper_force": 100.0
+      }]
+  }
+- {
+      "type": "A1652",
+      "grasp_poses": [{
+          "position": [0, 0, 0.000],
+          "quaternion": [0, 0, 0, 1],
+          "approach_distance": [0, 0, -0.05],
+          "leave_distance": [0, 0, -0.05],
+          "tool": "open_tip",
+          "pre_gripper_position": 15.0,
+          "post_gripper_position": 0.0,
+          "gripper_force": 100.0
+      }]
+  }
+- {
+      "type": "A1653",
+      "grasp_poses": [{
+          "position": [0, 0, 0.000],
+          "quaternion": [0, 0, 0, 1],
+          "approach_distance": [0, 0, -0.05],
+          "leave_distance": [0, 0, -0.05],
+          "tool": "open_tip",
+          "pre_gripper_position": 45.0,
+          "post_gripper_position": 0.0,
+          "gripper_force": 100.0
+      }]
+  }

@@ -181,3 +181,23 @@ object_geometries:
     box:  [0.18,0.18,0.24]
     offset_quaternion: [ 0, 0, 0, 1 ]
     offset: [0.0, 0.0, 0.12]
+
+
+  A1650:
+    color: [1, 1, 1, 1]
+    box:  [0.080,0.070,0.009]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0]
+
+  A1652:
+    color: [1, 1, 1, 1]
+    box:  [0.008, 0.113, 0.038]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0]
+
+  A1653:  # cilindro
+    color: [1, 1, 1, 1]
+    #cylinder:  [0.140,0.024]
+    box:  [0.140, 0.140, 0.024]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0]
