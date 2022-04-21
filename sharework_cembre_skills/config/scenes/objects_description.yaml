@@ -1,32 +1,17 @@
 object_geometries:
 
-  mounting_area_P1:
-    color: [1,1,1,0.3]
-    box:  [0.4,0.4,0.30]
-    offset: [0.0,0.0,0.11] #
-
-  mounting_area_P2:
-    color: [1,1,1,0.3]
-    box:  [0.4,0.4,0.30]
-    offset: [0.0,0.0,0.15] #
-
   head_protection:
-    color: [1,1,1,0.3]
-    box:  [0.2,2,0.50]
-    offset: [0.0,0.0,0.0] #
+    color: [0.2,0.2,0.2, 0.4]
+    box:  [0.2,2.0,0.6]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0]
+
 
 
   blue_box:
     color: [1,1,1,0.3]
     box:  [0.5,0.7,0.08]
     offset: [0.0,0.0,0.04] #
-
-  pieceA:
-    color: [1,0.8,0,1.]
-    box:  [0.03,0.03,0.01]
-
-    offset: [0.069,-0.012,-0.005] #
-
 
   mounting_plateA:
     color: [0.2,0.2,0.2,1.0]
@@ -42,115 +27,6 @@ object_geometries:
     color: [0.2,0.2,0.2,1.0]
     box:  [0.08,0.150,0.030]
     offset: [0.0,0.0,-0.015] #
-
-  blank_piece_location:
-    color: [1,0.8,0,1.0]
-    box:  [0.03,0.03,0.01]
-    offset: [0.0,0.0,0.005]
-
-  squadra_piccola:
-    # color: [0.2,0.2,0.2, 1.]
-    box:  [0.019,0.03,0.012]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0]
-
-  pin:
-    # color: [0.2,0.2,0.2, 0.4]
-    box:  [0.02,0.02,0.01]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0.005]
-
-  squadra_grande:
-    # color: [0.2,0.2,0.2, 1.]
-    box:  [0.03,0.01,0.03]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0]
-
-  cube:
-    color: [1, 1, 1, 1]
-    box:  [0.05,0.05,0.05]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0.03]
-
-  little_cube:
-    box:  [0.015,0.015,0.015]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0]
-
-  plate:
-    box: [0.17,0.01,0.025]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0]
-
-  L_plate:
-    box: [0.16,0.03,0.03]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0]
-
-  green_cube:
-    color: [0, 1, 0, 1]
-    box:  [0.05,0.05,0.05]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0]
-
-  light_blue_cube:
-    color: [0.5294, 0.8078, 0.9804, 1]
-    box:  [0.05,0.05,0.05]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0]
-
-  pink_cube:
-    color: [1, 0.7529, 0.7961, 1]
-    box:  [0.05,0.05,0.05]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0]
-
-  white_cube:
-    color: [1, 1, 1, 1]
-    box:  [0.05,0.05,0.05]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0]
-
-  yellow_cube:
-    color: [1, 1, 0, 1]
-    box:  [0.05,0.05,0.05]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0]
-
-  deo:
-    color: [1, 1, 0, 1]
-    box:  [0.045,0.045,0.095]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0.052]
-
-  outbound_box:
-    color: [1, 1, 0, 1]
-    box:  [0.30,0.20,0.12]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, -0.06]
-
-  cylinder:
-    color: [1, 1, 0, 1]
-    box:  [0.04,0.04,0.175]
-    offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0.09]
-
-
-
-  colonna:
-    color:  [1.00,1.00,1.0,1.0]
-    box:    [0.50,0.02,0.70]
-    offset: [0.00,0.00,0.35] #
-  tetto:
-    color:  [1.00,1.00,1.0,1.0]
-    box:    [0.50,0.73,0.020]
-    offset: [0.00,0.00,0.010] #
-
-
-  obstacle_prove_cembre:
-    color: [1.0,1.0,1.0,1.0]
-    box:  [0.50,0.73,0.70]
-    offset: [0.0,0.0,0.35] #
 
   cylinder_cembre_small:
     color: [1, 1, 0, 1]
@@ -182,6 +58,23 @@ object_geometries:
     offset_quaternion: [ 0, 0, 0, 1 ]
     offset: [0.0, 0.0, 0.12]
 
+  MountingArea_A1650:
+    color: [0.2,0.2,0.2, 1.]
+    box:  [0.50,0.50,0.3]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.15]
+
+  MountingArea_A1652:
+    color: [0.2,0.2,0.2, 1.]
+    box:  [0.50,0.50,0.3]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.15]
+
+  MountingArea_A1653:
+    color: [0.2,0.2,0.2, 1.]
+    box:  [0.50,0.50,0.3]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.15]
 
   A1650:
     color: [1, 1, 1, 1]

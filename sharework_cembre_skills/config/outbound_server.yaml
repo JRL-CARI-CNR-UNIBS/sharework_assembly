@@ -1,8 +1,4 @@
-outbound:
-  slots_group:
-  - {name: "group_A"}
-  - {name: "group_B"}
-  - {name: "equipment"}
+
 
 outbound_place_server:
 

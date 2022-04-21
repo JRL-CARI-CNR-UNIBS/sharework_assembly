@@ -2,13 +2,16 @@
 <launch>
 
   <node pkg="manipulation_job_base" name="ssm_job" type="ssm_job_exec.py" output="screen">
-    <rosparam command="load" ns="mount_pezzo_21A1122"         file="$(find sharework_cembre_skills)/config/job_state_machines/mount_pezzo_21A1122.yaml"/>
+    <rosparam command="load" ns="mount_A1650"         file="$(find sharework_cembre_skills)/config/job_state_machines/mount_A1650.yaml"/>
     <rosparam command="load" ns="unmount_pezzo_21A1122"         file="$(find sharework_cembre_skills)/config/job_state_machines/unmount_pezzo_21A1122.yaml"/>
     <rosparam command="load" ns="mount_staffa_21A1122"  file="$(find sharework_cembre_skills)/config/job_state_machines/mount_staffa_21A1122.yaml"/>
     <rosparam command="load" ns="unmount_staffa_21A1122"  file="$(find sharework_cembre_skills)/config/job_state_machines/unmount_staffa_21A1122.yaml"/>
     <rosparam command="load" ns="remove_piece_tower_left" file="$(find sharework_cembre_skills)/config/job_state_machines/remove_piece_tower_left.yaml"/>
-    <rosparam command="load" ns="insert_piece_tower_left" file="$(find sharework_cembre_skills)/config/job_state_machines/insert_piece_tower_left.yaml"/>
+    <rosparam command="load" ns="mount_A1652" file="$(find sharework_cembre_skills)/config/job_state_machines/mount_A1652.yaml"/>
     <rosparam command="load" ns="simple_touch_x"          file="$(find sharework_cembre_skills)/config/job_state_machines/simple_touch_x.yaml"/>
+    <rosparam command="load" ns="pick_A1650"          file="$(find sharework_cembre_skills)/config/job_state_machines/pick_A1650.yaml"/>
+    <rosparam command="load" ns="pick_A1652"          file="$(find sharework_cembre_skills)/config/job_state_machines/pick_A1652.yaml"/>
+    <rosparam command="load" ns="up_down"          file="$(find sharework_cembre_skills)/config/job_state_machines/up_down.yaml"/>
   </node>
 
 </launch>

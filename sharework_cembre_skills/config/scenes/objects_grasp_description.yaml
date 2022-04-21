@@ -99,7 +99,7 @@ manipulation_object_types:
 - {
       "type": "A1650",
       "grasp_poses": [{
-          "position": [0, 0, 0.000],
+          "position": [0, 0, -0.060],
           "quaternion": [0, 0, 0, 1],
           "approach_distance": [0, 0, -0.05],
           "leave_distance": [0, 0, -0.05],
@@ -112,7 +112,7 @@ manipulation_object_types:
 - {
       "type": "A1652",
       "grasp_poses": [{
-          "position": [0, 0, 0.000],
+          "position": [0, 0, -0.060],
           "quaternion": [0, 0, 0, 1],
           "approach_distance": [0, 0, -0.05],
           "leave_distance": [0, 0, -0.05],
@@ -125,7 +125,7 @@ manipulation_object_types:
 - {
       "type": "A1653",
       "grasp_poses": [{
-          "position": [0, 0, 0.000],
+          "position": [0, 0, -0.060],
           "quaternion": [0, 0, 0, 1],
           "approach_distance": [0, 0, -0.05],
           "leave_distance": [0, 0, -0.05],

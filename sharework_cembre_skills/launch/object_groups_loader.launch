@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+  <rosparam command="load" file="$(find sharework_cembre_skills)/config/scenes/objects_description.yaml"/>
+
+  <node pkg="object_loader" name="object_groups" type="object_groups_loader.py" output="screen">
+    <rosparam command="load" file="$(find sharework_cembre_skills)/config/scenes/object_groups.yaml"/>
+  </node>
+
+</launch>

@@ -48,7 +48,7 @@ subjobs_list:
     force: 100
     velocity: 100
   push_z_final:
-    next_state_if_success: "move_up"
+    next_state_if_success: "detach"
     next_state_if_fail: "FAIL"
     type: Touch
     goal_twist: [0,0,-0.0015,0,0,0]
@@ -57,6 +57,14 @@ subjobs_list:
     relative_target: True
     release_condition: "Position"
     release_position: 0.0005
+  detach:
+    next_state_if_success: "remove"
+    next_state_if_fail: "FAIL"
+    type: Detach
+  remove:
+    next_state_if_success: "move_up"
+    next_state_if_fail: "FAIL"
+    type: RemoveObject
   move_up:
     next_state_if_success: "SUCCESS"
     next_state_if_fail: "FAIL"
