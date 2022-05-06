@@ -31,5 +31,7 @@
 <include file="$(find sharework_cembre_skills)/launch/ssm_job_executer.launch">
 </include>
 
+<include file="$(find sharework_cembre_skills)/launch/object_groups_loader.launch">
+</include>
 
 </launch>

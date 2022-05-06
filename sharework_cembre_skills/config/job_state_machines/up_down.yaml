@@ -5,14 +5,14 @@ subjobs_list:
     type: RelativeMove
     frame: table
     traZmm: -130
-    linear_velocity_mm_s: 20
+    linear_velocity_mm_s: 50
   move_up:
     next_state_if_success: "rot_1"
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
     traZmm: 130
-    linear_velocity_mm_s: 15
+    linear_velocity_mm_s: 50
   rot_1:
     next_state_if_success: "rot_2"
     next_state_if_fail: "FAIL"
