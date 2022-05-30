@@ -9,9 +9,9 @@ go_to_location:
   - {name: "Storage0_slot4_A1652", frame: "table", position: [-0.202, 0.496, 0.142], quaternion: [1.0, 0.0, 0.0, 0.0]}
   - {name: "Storage0_slot5_A1652", frame: "table", position: [-0.163, 0.492, 0.142], quaternion: [1.0, 0.0, 0.0, 0.0]}
 
-  # Storage  A1650 (21A1122)  (aggiunto 60 mm per approccio, pinza 45 mm per approccio)
-  - {name: "Storage1_slot_0_A1650", frame: "table", position: [-0.334, 0.846, 0.144], quaternion: [1.0, 0.0, 0.0, 0.0]}
-  - {name: "Storage1_slot_1_A1650", frame: "table", position: [-0.182, 0.846, 0.137], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  # Storage  A1610 (21A1122)  (aggiunto 60 mm per approccio, pinza 45 mm per approccio)
+  - {name: "Storage1_slot_0_A1610", frame: "table", position: [-0.334, 0.846, 0.144], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  - {name: "Storage1_slot_1_A1610", frame: "table", position: [-0.182, 0.846, 0.137], quaternion: [1.0, 0.0, 0.0, 0.0]}
 
   # Storage  UNLOAD
   - {name: "Storage0_UNLOAD", frame: "table", position: [-0.318, 1.461, 0.135], quaternion: [1.0, 0.0, 0.0, 0.0]}
@@ -21,9 +21,9 @@ go_to_location:
 
 
   # 21A1122 pezzo cilindrico
-  - {name: "P1__pezzo_A1650",              frame: "table", position: [0.299, 0.500, 0.322], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P1__staffa_unmount_A1650",     frame: "table", position: [0.260, 0.502, 0.320], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P1__staffa_mount_A1650",       frame: "table", position: [0.260, 0.448, 0.345], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P1__pezzo_A1610",              frame: "table", position: [0.299, 0.500, 0.322], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P1__staffa_unmount_A1610",     frame: "table", position: [0.260, 0.502, 0.320], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  - {name: "P1__staffa_mount_A1610",       frame: "table", position: [0.260, 0.448, 0.345], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
 
   - {name: "P2__pezzo_21A1122",              frame: "table", position: [0.299, 1.499, 0.320], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
   - {name: "P2__staffa_unmount_21A1122",     frame: "table", position: [0.260, 1.500, 0.318], quaternion: [0.70717, 0.70717, 0.0, 0.0]}

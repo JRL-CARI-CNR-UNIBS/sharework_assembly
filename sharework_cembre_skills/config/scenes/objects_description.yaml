@@ -58,7 +58,7 @@ object_geometries:
     offset_quaternion: [ 0, 0, 0, 1 ]
     offset: [0.0, 0.0, 0.12]
 
-  MountingArea_A1650:
+  MountingArea_A1610:
     color: [0.2,0.2,0.2, 1.]
     box:  [0.50,0.50,0.3]
     offset_quaternion: [ 0, 0, 0, 1 ]
@@ -76,7 +76,7 @@ object_geometries:
     offset_quaternion: [ 0, 0, 0, 1 ]
     offset: [0, 0, 0.15]
 
-  A1650:
+  A1610:
     color: [1, 1, 1, 1]
     box:  [0.080,0.070,0.009]
     offset_quaternion: [ 0, 0, 0, 1 ]

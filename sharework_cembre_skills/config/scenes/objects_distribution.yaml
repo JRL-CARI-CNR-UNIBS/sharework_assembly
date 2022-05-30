@@ -7,5 +7,5 @@ inbound:
    - {type: "A1652",  frame: "table",   position: [-0.202, 0.496, 0.142], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
    - {type: "A1652",  frame: "table",   position: [-0.163, 0.492, 0.142], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
 
-   - {type: "A1650",  frame: "table",   position: [-0.334, 0.846, 0.144], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage2_A1650"}
-   - {type: "A1650",  frame: "table",   position: [-0.182, 0.846, 0.137], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage2_A1650"}
+   - {type: "A1610",  frame: "table",   position: [-0.334, 0.846, 0.144], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage2_A1610"}
+   - {type: "A1610",  frame: "table",   position: [-0.182, 0.846, 0.137], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage2_A1610"}
