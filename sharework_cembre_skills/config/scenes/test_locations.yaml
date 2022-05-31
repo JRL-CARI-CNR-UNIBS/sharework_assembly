@@ -1,50 +1,61 @@
 go_to_location:
   - {name: "home",                           frame: "table", position: [-0.228, 0.745, 0.25], quaternion: [0.761, -0.648, -0.033, 0.014]}
+  - {name: "unmount_P1_A1652_dx",            frame: "table", position: [0.301, 0.536, 0.365], quaternion: [0.707, -0.707, 0.000, 0.000]} #only as example
+  - {name: "unmount_P1_A1652_sx",            frame: "table", position: [0.299, 0.465, 0.364], quaternion: [0.707, 0.707, 0.000, 0.000]} #only as example
+  - {name: "unmount_P2_A1652_dx",            frame: "table", position: [0.301, 1.534, 0.365], quaternion: [0.707, -0.707, 0.000, 0.000]} #only as example
+  - {name: "unmount_P2_A1652_sx",            frame: "table", position: [0.299, 1.465, 0.364], quaternion: [0.707, 0.707, 0.000, 0.000]} #only as example
 
-  # Storage  A1652 (21A1121)  (aggiunto 60 mm per approccio, pinza 15 mm per approccio)
-  - {name: "Storage0_slot0_A1652", frame: "table", position: [-0.353, 0.492, 0.150], quaternion: [1.0, 0.0, 0.0, 0.0]}
-  - {name: "Storage0_slot1_A1652", frame: "table", position: [-0.317, 0.490, 0.152], quaternion: [1.0, 0.0, 0.0, 0.0]}
-  - {name: "Storage0_slot2_A1652", frame: "table", position: [-0.276, 0.496, 0.147], quaternion: [1.0, 0.0, 0.0, 0.0]}
-  - {name: "Storage0_slot3_A1652", frame: "table", position: [-0.240, 0.496, 0.144], quaternion: [1.0, 0.0, 0.0, 0.0]}
-  - {name: "Storage0_slot4_A1652", frame: "table", position: [-0.202, 0.496, 0.142], quaternion: [1.0, 0.0, 0.0, 0.0]}
-  - {name: "Storage0_slot5_A1652", frame: "table", position: [-0.163, 0.492, 0.142], quaternion: [1.0, 0.0, 0.0, 0.0]}
 
-  # Storage  A1650 (21A1122)  (aggiunto 60 mm per approccio, pinza 45 mm per approccio)
-  - {name: "Storage1_slot_0_A1650", frame: "table", position: [-0.334, 0.846, 0.144], quaternion: [1.0, 0.0, 0.0, 0.0]}
-  - {name: "Storage1_slot_1_A1650", frame: "table", position: [-0.182, 0.846, 0.137], quaternion: [1.0, 0.0, 0.0, 0.0]}
-
-  # Storage  UNLOAD
   - {name: "Storage0_UNLOAD", frame: "table", position: [-0.318, 1.461, 0.135], quaternion: [1.0, 0.0, 0.0, 0.0]}
   - {name: "Storage1_UNLOAD", frame: "table", position: [-0.327, 1.685, 0.135], quaternion: [1.0, 0.0, 0.0, 0.0]}
   - {name: "Storage2_UNLOAD", frame: "table", position: [-0.151, 1.468, 0.135], quaternion: [1.0, 0.0, 0.0, 0.0]}
   - {name: "Storage3_UNLOAD", frame: "table", position: [-0.169, 1.692, 0.135], quaternion: [1.0, 0.0, 0.0, 0.0]}
 
-
-  # 21A1122 pezzo cilindrico
-  - {name: "P1__pezzo_A1650",              frame: "table", position: [0.299, 0.500, 0.322], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P1__staffa_unmount_A1650",     frame: "table", position: [0.260, 0.502, 0.320], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P1__staffa_mount_A1650",       frame: "table", position: [0.260, 0.448, 0.345], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-
-  - {name: "P2__pezzo_21A1122",              frame: "table", position: [0.299, 1.499, 0.320], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P2__staffa_unmount_21A1122",     frame: "table", position: [0.260, 1.500, 0.318], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-  - {name: "P2__staffa_mount_21A1122",       frame: "table", position: [0.260, 1.446, 0.343], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
-
-  - {name: "Warehouse_staffa_21A1122",       frame: "table", position: [0.001, 0.891, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-  - {name: "Warehouse_staffa_21A1122_up",    frame: "table", position: [0.001, 0.891, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-
-  - {name: "Warehouse_staffa_P1_21A1122",       frame: "table", position: [0.001, 0.391, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-  - {name: "Warehouse_staffa_P1_21A1122_up",    frame: "table", position: [0.001, 0.391, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-
-  - {name: "Warehouse_staffa_P2_21A1122",       frame: "table", position: [0.001, 1.391, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-  - {name: "Warehouse_staffa_P2_21A1122_up",    frame: "table", position: [0.001, 1.391, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-
-  - {name: "Warehouse_middle",               frame: "table", position: [-0.174, 0.900,  0.35], quaternion: [0.699, 0.707, -0.075, -0.070]} #to be updated
-
-  - {name: "pick_tower_left",                frame: "world", position: [0.299, -0.534, 1.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-  - {name: "place_tower_left",               frame: "world", position: [0.183, -0.506, 1.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
-
-  - {name: "pick_object_tower_1",            frame: "world", position: [-0.061, -0.668, 0.925], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
-  - {name: "approach_pick_object_tower_1",   frame: "world", position: [-0.061, -0.668, 1.200], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
-
-  - {name: "pick_object_tower_2",            frame: "world", position: [-0.020, -0.668, 0.925], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
-  - {name: "approach_pick_object_tower_2",   frame: "world", position: [-0.020, -0.668, 1.200], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
+  #
+  # # Storage  A1652 (21A1121)  (aggiunto 60 mm per approccio, pinza 15 mm per approccio)
+  # - {name: "Storage0_slot0_A1652", frame: "table", position: [-0.353, 0.492, 0.150], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  # - {name: "Storage0_slot1_A1652", frame: "table", position: [-0.317, 0.490, 0.152], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  # - {name: "Storage0_slot2_A1652", frame: "table", position: [-0.276, 0.496, 0.147], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  # - {name: "Storage0_slot3_A1652", frame: "table", position: [-0.240, 0.496, 0.144], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  # - {name: "Storage0_slot4_A1652", frame: "table", position: [-0.202, 0.496, 0.142], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  # - {name: "Storage0_slot5_A1652", frame: "table", position: [-0.163, 0.492, 0.142], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  #
+  # # Storage  A1610 (21A1122)  (aggiunto 60 mm per approccio, pinza 45 mm per approccio)
+  # - {name: "Storage1_slot_0_A1610", frame: "table", position: [-0.334, 0.846, 0.144], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  # - {name: "Storage1_slot_1_A1610", frame: "table", position: [-0.182, 0.846, 0.137], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  #
+  # # Storage  UNLOAD
+  # - {name: "Storage0_UNLOAD", frame: "table", position: [-0.318, 1.461, 0.135], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  # - {name: "Storage1_UNLOAD", frame: "table", position: [-0.327, 1.685, 0.135], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  # - {name: "Storage2_UNLOAD", frame: "table", position: [-0.151, 1.468, 0.135], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  # - {name: "Storage3_UNLOAD", frame: "table", position: [-0.169, 1.692, 0.135], quaternion: [1.0, 0.0, 0.0, 0.0]}
+  #
+  #
+  # # 21A1122 pezzo cilindrico
+  # - {name: "P1__pezzo_A1610",              frame: "table", position: [0.299, 0.500, 0.322], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "P1__staffa_unmount_A1610",     frame: "table", position: [0.260, 0.502, 0.320], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "P1__staffa_mount_A1610",       frame: "table", position: [0.260, 0.448, 0.345], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  #
+  # - {name: "P2__pezzo_21A1122",              frame: "table", position: [0.299, 1.499, 0.320], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "P2__staffa_unmount_21A1122",     frame: "table", position: [0.260, 1.500, 0.318], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  # - {name: "P2__staffa_mount_21A1122",       frame: "table", position: [0.260, 1.446, 0.343], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
+  #
+  # - {name: "Warehouse_staffa_21A1122",       frame: "table", position: [0.001, 0.891, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  # - {name: "Warehouse_staffa_21A1122_up",    frame: "table", position: [0.001, 0.891, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  #
+  # - {name: "Warehouse_staffa_P1_21A1122",       frame: "table", position: [0.001, 0.391, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  # - {name: "Warehouse_staffa_P1_21A1122_up",    frame: "table", position: [0.001, 0.391, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  #
+  # - {name: "Warehouse_staffa_P2_21A1122",       frame: "table", position: [0.001, 1.391, 0.030], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  # - {name: "Warehouse_staffa_P2_21A1122_up",    frame: "table", position: [0.001, 1.391, 0.305], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  #
+  # - {name: "Warehouse_middle",               frame: "table", position: [-0.174, 0.900,  0.35], quaternion: [0.699, 0.707, -0.075, -0.070]} #to be updated
+  #
+  # - {name: "pick_tower_left",                frame: "world", position: [0.299, -0.534, 1.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  # - {name: "place_tower_left",               frame: "world", position: [0.183, -0.506, 1.200], quaternion: [0.70717, 0.70717, 0.0, 0.0]} #to be updated
+  #
+  # - {name: "pick_object_tower_1",            frame: "world", position: [-0.061, -0.668, 0.925], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
+  # - {name: "approach_pick_object_tower_1",   frame: "world", position: [-0.061, -0.668, 1.200], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
+  #
+  # - {name: "pick_object_tower_2",            frame: "world", position: [-0.020, -0.668, 0.925], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated
+  # - {name: "approach_pick_object_tower_2",   frame: "world", position: [-0.020, -0.668, 1.200], quaternion: [1.000, 0.000, 0.000, 0.000]} #to be updated

@@ -1,8 +1,0 @@
-group_name: "manipulator"
-recipe:
-- action: "goto"
-  description: ["pick_tower_left"]
-  to_loc_ctrl_id: "trajectory_tracking"
-  job_exec_name: "/ssm_job/exec"
-  tool_id: ""
-  property_exec_id: "remove_piece_tower_left"
