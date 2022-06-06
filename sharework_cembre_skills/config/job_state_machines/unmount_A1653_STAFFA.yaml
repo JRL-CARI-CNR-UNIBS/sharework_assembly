@@ -1,4 +1,3 @@
-# fare il check
 subjobs_list:
   gripper_35:
     next_state_if_success: "move_down"

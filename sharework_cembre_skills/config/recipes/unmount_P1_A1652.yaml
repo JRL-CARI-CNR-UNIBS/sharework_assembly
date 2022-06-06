@@ -8,3 +8,4 @@ recipe:
 message: "Unloading"
 position: 1
 storage: 1
+number_of_slots: 2

@@ -8,3 +8,4 @@ recipe:
 message: "Loading"
 position: 1
 storage: 0
+number_of_slots: 2
