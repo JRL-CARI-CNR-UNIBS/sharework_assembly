@@ -10,8 +10,8 @@ object_geometries:
 
   blue_box:
     color: [1,1,1,0.3]
-    box:  [0.5,0.7,0.08]
-    offset: [0.0,0.0,0.04] #
+    box:  [0.5,0.7,0.12]
+    offset: [0.0,0.0,0.06] #
 
   mounting_plateA:
     color: [0.2,0.2,0.2,1.0]
@@ -93,4 +93,4 @@ object_geometries:
     #cylinder:  [0.140,0.024]
     box:  [0.140, 0.140, 0.024]
     offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0]
+    offset: [0, 0, 0.2]

@@ -9,7 +9,16 @@
     <rosparam command="load" ns="pick_A1652"          file="$(find sharework_cembre_skills)/config/job_state_machines/pick_A1652.yaml"/>
 
     <rosparam command="load" ns="mount_A1653" file="$(find sharework_cembre_skills)/config/job_state_machines/mount_A1653.yaml"/>
+    <rosparam command="load" ns="unmount_A1653" file="$(find sharework_cembre_skills)/config/job_state_machines/unmount_A1653.yaml"/>
     <rosparam command="load" ns="pick_A1653"          file="$(find sharework_cembre_skills)/config/job_state_machines/pick_A1653.yaml"/>
+    <rosparam command="load" ns="mount_A1653_STAFFA"         file="$(find sharework_cembre_skills)/config/job_state_machines/mount_A1653_STAFFA.yaml"/>
+    <rosparam command="load" ns="unmount_A1653_STAFFA"         file="$(find sharework_cembre_skills)/config/job_state_machines/unmount_A1653_STAFFA.yaml"/>
+
+    <rosparam command="load" ns="pick_A1610" file="$(find sharework_cembre_skills)/config/job_state_machines/pick_A1610.yaml"/>
+    <rosparam command="load" ns="mount_A1610" file="$(find sharework_cembre_skills)/config/job_state_machines/mount_A1610.yaml"/>
+
+
+    <rosparam command="load" ns="release"          file="$(find sharework_cembre_skills)/config/job_state_machines/release.yaml"/>
   </node>
 
 </launch>

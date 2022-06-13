@@ -4,6 +4,6 @@ scene_objects:
 # - {type: "mounting_plateA_slide", frame: "table", position: [ 0.300, 0.555, 0.206], quaternion: [0,0,0,1]}
  - {type: "mounting_area_P1",  frame: "table", position: [ 0.302, 0.501, 0.0], quaternion: [0,0,0,1]}
  - {type: "mounting_area_P2",  frame: "table", position: [ 0.300, 1.501, 0.0], quaternion: [0,0,0,1]}
- - {type: "blue_box",  frame: "table", position: [ -0.27, 0.870, 0.0], quaternion: [0,0,0,1]}
+ - {type: "blue_box",  frame: "table", position: [ -0.27, 0.6250, 0.0], quaternion: [0,0,0,1]}
  - {type: "blue_box",  frame: "table", position: [ -0.27, 1.601, 0.0], quaternion: [0,0,0,1]}
  - {type: "head_protection",  frame: "table", position: [ 0.8, 1.0, 0.5], quaternion: [0,0,0,1]}

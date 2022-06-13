@@ -1,10 +1,9 @@
-# fare il check
 subjobs_list:
-  gripper_35:
+  gripper_50:
     next_state_if_success: "move_down"
     next_state_if_fail: "FAIL"
     type: Gripper
-    position: 35
+    position: 50
     force: 100
     velocity: 100
   move_down:
@@ -12,9 +11,16 @@ subjobs_list:
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: -120
-    linear_velocity_mm_s: 25
+    traZmm: -144
+    linear_velocity_mm_s: 30
   close_gripper:
+    next_state_if_success: "close_gripper_2"
+    next_state_if_fail: "FAIL"
+    type: Gripper
+    position: 0
+    force: 100
+    velocity: 100
+  close_gripper_2:
     next_state_if_success: "move_up"
     next_state_if_fail: "FAIL"
     type: Gripper
@@ -22,25 +28,18 @@ subjobs_list:
     force: 100
     velocity: 100
   move_up:
-    next_state_if_success: "move_out_y"
+    next_state_if_success: "move_up_2"
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: 6
-    linear_velocity_mm_s: 25
-  move_out_y:
-    next_state_if_success: "move_out_z"
-    next_state_if_fail: "FAIL"
-    type: RelativeMove
-    frame: table
-    traYmm: -55
-    linear_velocity_mm_s: 25
-  move_out_z:
+    traZmm: 4
+    linear_velocity_mm_s: 2
+
+  move_up_2:
     next_state_if_success: "SUCCESS"
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
-    traZmm: 180
-    linear_velocity_mm_s: 50
-
-initial_state: gripper_35
+    traZmm: 140
+    linear_velocity_mm_s: 25
+initial_state: gripper_50

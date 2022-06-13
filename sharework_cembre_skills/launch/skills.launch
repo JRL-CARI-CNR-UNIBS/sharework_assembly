@@ -20,6 +20,7 @@
 <arg name="baseline" value="$(arg baseline)"/>
 </include>
 
+<node pkg="sharework_cembre_skills" type="load_group.py" name="load_group_1"/>
 
 <include file="$(find sharework_cembre_skills)/launch/goto.launch">
 <arg name="debug" value="$(arg debug)"/>

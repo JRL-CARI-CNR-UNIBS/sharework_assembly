@@ -17,6 +17,12 @@ P2_A1653:
 - {type: "MountingArea_A1653",  frame: "table",   position: [0.3, 1.5, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
 
 
+storages:
+- {type: "blue_box",  frame: "table", position: [ -0.27, 0.6250, 0.0], quaternion: [0,0,0,1]}
+- {type: "blue_box",  frame: "table", position: [ -0.27, 1.601, 0.0], quaternion: [0,0,0,1]}
+- {type: "head_protection",  frame: "table", position: [ 0.8, 1.0, 0.5], quaternion: [0,0,0,1]}
+
+
 barriera:
 - {type: "table_top",   frame: "table", position: [  0.30, 1.12,  0.75], quaternion: [0.7071068, 0, 0, 0.7071068 ]}
 - {type: "table_leg",   frame: "table", position: [  0.05, 1.11,  0.4],  quaternion: [0.0, 0.7071068,  0, 0.7071068]}
