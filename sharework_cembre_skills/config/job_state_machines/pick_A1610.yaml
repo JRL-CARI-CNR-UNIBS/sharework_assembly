@@ -12,23 +12,23 @@ subjobs_list:
     type: RelativeMove
     frame: table
     traZmm: -200
-    linear_velocity_mm_s: 40
+    linear_velocity_mm_s: 70
   close_gripper:
-    next_state_if_success: "move_up"
+    next_state_if_success: "attach"
     next_state_if_fail: "FAIL"
     type: Gripper
     position: 0
     force: 100
     velocity: 100
-  # attach:
-  #   next_state_if_success: "move_up"
-  #   next_state_if_fail: "FAIL"
-  #   type: Attach
+  attach:
+    next_state_if_success: "move_up"
+    next_state_if_fail: "FAIL"
+    type: Attach
   move_up:
     next_state_if_success: "SUCCESS"
     next_state_if_fail: "FAIL"
     type: RelativeMove
     frame: table
     traZmm: 200
-    linear_velocity_mm_s: 40
+    linear_velocity_mm_s: 70
 initial_state: open_gripper

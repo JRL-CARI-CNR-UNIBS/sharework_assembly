@@ -99,10 +99,10 @@ manipulation_object_types:
 - {
       "type": "A1610",
       "grasp_poses": [{
-          "position": [0, 0, -0.060],
+          "position": [0, 0, -0.000],
           "quaternion": [0, 0, 0, 1],
-          "approach_distance": [0, 0, -0.05],
-          "leave_distance": [0, 0, -0.05],
+          "approach_distance": [0, 0, 0.0],
+          "leave_distance": [0, 0, 0.0],
           "tool": "open_tip",
           "pre_gripper_position": 15.0,
           "post_gripper_position": 0.0,

@@ -1,10 +1,10 @@
 group_name: "manipulator"
 recipe:
-- {action: "goto",   description: ["A1610_open_ganascia"],  property_exec_id: "open_ganascia_A1610",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+- {action: "goto",   description: ["P1_A1610_open_ganascia"],  property_exec_id: "open_ganascia_A1610",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
 - {action: "goto",   description: ["unmount_P1_A1610"],         property_exec_id: "unmount_A1610",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
-- {action: "goto",   description: ["Storage2_UNLOAD"],          property_exec_id: "release",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+- {action: "goto",   description: ["Storage3_UNLOAD"],          property_exec_id: "release",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
 
 
 message: "Unloading"
 position: 1
-storage: 1
+storage: 2
