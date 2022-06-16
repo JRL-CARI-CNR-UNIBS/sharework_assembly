@@ -19,16 +19,23 @@ go_to_location:
   - {name: "Storage_A1653_STAFFA_up",             frame: "table", position: [-0.062, 1.094, 0.328], quaternion: [-0.000, 1.000, -0.000, 0.000]} #to be updated
 
 
+  - {name: "unmount_P1_A1610",       frame: "table", position: [0.271, 0.568, 0.391], quaternion: [-0.004, 1.000, 0.022, 0.001]}
+  - {name: "P1_A1610_open_ganascia",    frame: "table", position: [0.271, 0.568, 0.391], quaternion: [-0.004, 1.000, 0.022, 0.001]}
+  - {name: "P1_A1610_close_ganascia",   frame: "table", position: [0.271, 0.568, 0.391], quaternion: [-0.004, 1.000, 0.022, 0.001]}
+  - {name: "unmount_P2_A1610",       frame: "table", position: [0.271, 1.568, 0.391], quaternion: [-0.004, 1.000, 0.022, 0.001]}
+  - {name: "P2_A1610_open_ganascia",    frame: "table", position: [0.271, 1.568, 0.391], quaternion: [-0.004, 1.000, 0.022, 0.001]}
+  - {name: "P2_A1610_close_ganascia",   frame: "table", position: [0.271, 1.568, 0.391], quaternion: [-0.004, 1.000, 0.022, 0.001]}
+
+  #- {name: "pick_A1610",       frame: "table", position: [-0.187, 0.704, 0.273], quaternion: [0.699, 0.715, 0.009, 0.008]}
+  #- {name: "pick2_A1610",       frame: "table", position: [-0.262, 0.703, 0.274], quaternion: [0.699, 0.715, 0.009, 0.008]}
+  #- {name: "pick3_A1610",       frame: "table", position: [-0.346, 0.704, 0.278], quaternion: [0.699, 0.715, 0.009, 0.008]}
+  #- {name: "place_A1610",       frame: "table", position: [0.271, 0.568, 0.391], quaternion: [-0.004, 1.000, 0.022, 0.001]}
+
+
   - {name: "Storage0_UNLOAD", frame: "table", position: [-0.318, 1.461, 0.235], quaternion: [1.0, 0.0, 0.0, 0.0]}
   - {name: "Storage1_UNLOAD", frame: "table", position: [-0.327, 1.685, 0.235], quaternion: [1.0, 0.0, 0.0, 0.0]}
   - {name: "Storage2_UNLOAD", frame: "table", position: [-0.151, 1.468, 0.235], quaternion: [1.0, 0.0, 0.0, 0.0]}
   - {name: "Storage3_UNLOAD", frame: "table", position: [-0.169, 1.692, 0.235], quaternion: [1.0, 0.0, 0.0, 0.0]}
-
-  - {name: "pick_A1610",       frame: "table", position: [-0.187, 0.704, 0.273], quaternion: [0.699, 0.715, 0.009, 0.008]}
-  - {name: "pick2_A1610",       frame: "table", position: [-0.262, 0.703, 0.274], quaternion: [0.699, 0.715, 0.009, 0.008]}
-  - {name: "pick3_A1610",       frame: "table", position: [-0.346, 0.704, 0.278], quaternion: [0.699, 0.715, 0.009, 0.008]}
-  - {name: "place_A1610",       frame: "table", position: [0.271, 0.568, 0.391], quaternion: [-0.004, 1.000, 0.022, 0.001]}
-
 
 
   #

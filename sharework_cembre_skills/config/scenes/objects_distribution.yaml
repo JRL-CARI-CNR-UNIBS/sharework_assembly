@@ -9,3 +9,7 @@ inbound:
 
    - {type: "A1653",  frame: "table",   position: [-0.324, 0.851, 0.281], quaternion: [0.100, 0.995, -0.016, -0.025], inbound: "Storage2_A1653"}
    - {type: "A1653",  frame: "table",   position: [-0.181, 0.850, 0.275], quaternion: [0.100, 0.995, -0.010, -0.009], inbound: "Storage2_A1653"} #-200Ztool
+
+   - {type: "A1610",  frame: "table",   position: [-0.187, 0.704, 0.273], quaternion: [0.699, 0.715, 0.009, 0.008], inbound: "Storage1_A1610"}
+   - {type: "A1610",  frame: "table",   position: [-0.262, 0.703, 0.274], quaternion: [0.699, 0.715, 0.009, 0.008], inbound: "Storage1_A1610"}
+   - {type: "A1610",  frame: "table",   position: [-0.346, 0.704, 0.278], quaternion: [0.699, 0.715, 0.009, 0.008], inbound: "Storage1_A1610"}
