@@ -1,9 +1,10 @@
 go_to_location:
-  - {name: "home",                           frame: "table", position: [-0.228, 0.745, 0.25], quaternion: [0.761, -0.648, -0.033, 0.014]}
+  - {name: "home",                           frame: "table", position: [-0.033, 0.888, 0.313], quaternion: [0.707, 0.707, 0.000, -0.000]}
   - {name: "unmount_P1_A1652_dx",            frame: "table", position: [0.301, 0.536, 0.365], quaternion: [0.707, -0.707, 0.000, 0.000]} #only as example
   - {name: "unmount_P1_A1652_sx",            frame: "table", position: [0.299, 0.465, 0.364], quaternion: [0.707, 0.707, 0.000, 0.000]} #only as example
   - {name: "unmount_P2_A1652_dx",            frame: "table", position: [0.301, 1.534, 0.365], quaternion: [0.707, -0.707, 0.000, 0.000]} #only as example
   - {name: "unmount_P2_A1652_sx",            frame: "table", position: [0.299, 1.465, 0.364], quaternion: [0.707, 0.707, 0.000, 0.000]} #only as example
+
 
   - {name: "unmount_P1_A1653",              frame: "table", position: [0.301, 0.500, 0.322], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
   - {name: "unmount_P1_A1653_STAFFA",     frame: "table", position: [0.260, 0.502, 0.320], quaternion: [0.70717, 0.70717, 0.0, 0.0]}
