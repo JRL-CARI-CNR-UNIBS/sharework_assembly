@@ -1,0 +1,80 @@
+
+subjobs_list:
+
+  open_gripper:
+    next_state_if_success: "pick_screwdriver"
+    next_state_if_fail: "FAIL"
+    type: Gripper
+    position: 85
+    force: 100
+    velocity: 100
+  pick_screwdriver:
+    next_state_if_success: "prepare_gripper"
+    next_state_if_fail: "FAIL"
+    type: Script
+    name: pick_screwdriver.urp
+  prepare_gripper:
+    next_state_if_success: "push_y"
+    next_state_if_fail: "FAIL"
+    type: Gripper
+    position: 24
+    force: 100
+    velocity: 10
+
+  push_y:
+      next_state_if_success: "close_gripper_1"
+      next_state_if_fail: "FAIL"
+      type: Touch
+      goal_twist: [0.000,-0.001,0,0,0,0]
+      goal_twist_frame: "world"
+      target_force: 20
+      relative_target: True
+      release_condition: "Position"
+      release_position: 0.0001
+
+  close_gripper_1:
+    next_state_if_success: "close_gripper_2"
+    next_state_if_fail: "FAIL"
+    type: Gripper
+    position: 10
+    force: 100
+    velocity: 100
+  close_gripper_2:
+    next_state_if_success: "close_gripper_3"
+    next_state_if_fail: "FAIL"
+    type: Gripper
+    position: 0
+    force: 100
+    velocity: 100
+  close_gripper_3:
+    #next_state_if_success: "SUCCESS"
+    next_state_if_success: "screw_p1"
+    next_state_if_fail: "FAIL"
+    type: Gripper
+    position: 0
+    force: 100
+    velocity: 100
+  screw_p1:
+    next_state_if_success: "open_gripper_1"
+    next_state_if_fail: "FAIL"
+    type: Script
+    name: torretta_sx.urp
+    # name: screw_p1_a1653.urp
+    # name: screw_p2_a1653.urp
+    #name: torretta_sx.urp
+    #name: torretta_dx.urp
+  open_gripper_1:
+    next_state_if_success: "return_to_home"
+    next_state_if_fail: "FAIL"
+    type: Gripper
+    position: 50
+    force: 100
+    velocity: 100
+  return_to_home:
+    next_state_if_success: "SUCCESS"
+    next_state_if_fail: "FAIL"
+    type: Script
+    name: lg50_500.urp
+
+
+initial_state: open_gripper

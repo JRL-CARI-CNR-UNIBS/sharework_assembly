@@ -19,7 +19,9 @@
     <rosparam command="load" ns="open_ganascia_A1610" file="$(find sharework_cembre_skills)/config/job_state_machines/open_ganascia_A1610.yaml"/>
     <rosparam command="load" ns="close_ganascia_A1610" file="$(find sharework_cembre_skills)/config/job_state_machines/close_ganascia_A1610.yaml"/>
     <rosparam command="load" ns="unmount_A1610" file="$(find sharework_cembre_skills)/config/job_state_machines/unmount_A1610.yaml"/>
-    <rosparam command="load" ns="pick_screwdriver" file="$(find sharework_cembre_skills)/config/job_state_machines/pick_screwdriver.yaml"/>
+
+    <rosparam command="load" ns="screw_A1_A1610" file="$(find sharework_cembre_skills)/config/job_state_machines/screw_A1_A1610.yaml"/>
+    <rosparam command="load" ns="screw_A1_A1653" file="$(find sharework_cembre_skills)/config/job_state_machines/screw_A1_A1653.yaml"/>
 
 
 
