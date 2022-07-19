@@ -24,8 +24,8 @@ storages:
 
 
 barriera:
-- {type: "table_top",   frame: "table", position: [  0.30, 1.12,  0.75], quaternion: [0.7071068, 0, 0, 0.7071068 ]}
-- {type: "table_leg",   frame: "table", position: [  0.05, 1.11,  0.4],  quaternion: [0.0, 0.7071068,  0, 0.7071068]}
+- {type: "table_top",   frame: "table", position: [  0.30, 1.12,  0.73], quaternion: [0.7071068, 0, 0, 0.7071068 ]}
+- {type: "table_leg",   frame: "table", position: [  0.05, 1.11,  0.38],  quaternion: [0.0, 0.7071068,  0, 0.7071068]}
 - {type: "inbound_box", frame: "table", position: [  0.33,  1.50,  0.0],  quaternion: [0.0, 0.0, 0.0, 1.0]}
 
 tavolo:
