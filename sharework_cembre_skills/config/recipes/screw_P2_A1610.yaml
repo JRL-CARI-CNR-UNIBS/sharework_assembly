@@ -1,0 +1,7 @@
+group_name: "manipulator"
+recipe:
+- {action: "goto",   description: ["home"],  property_exec_id: "screw_P2_A1610",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+
+message: "Loading"
+position: 2
+storage: 0

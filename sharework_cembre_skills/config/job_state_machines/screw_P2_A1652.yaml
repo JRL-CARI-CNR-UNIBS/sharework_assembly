@@ -47,30 +47,18 @@ subjobs_list:
     force: 100
     velocity: 100
   close_gripper_3:
-    next_state_if_success: "screw_p1"
+    #next_state_if_success: "SUCCESS"
+    next_state_if_success: "screw_p2"
     next_state_if_fail: "FAIL"
     type: Gripper
     position: 0
     force: 100
     velocity: 100
-  screw_p1:
+  screw_p2:
     next_state_if_success: "open_gripper_1"
     next_state_if_fail: "FAIL"
     type: Script
-    name: screw_p1_a1610.urp
-    # name: screw_p1_a1653.urp
-    # name: screw_p2_a1653.urp
-    #name: torretta_sx.urp
-    #name: torretta_dx.urp
-
-  # activate_screwdriver:
-  #   next_state_if_success: "open_gripper_1"
-  #   next_state_if_fail: "FAIL"
-  #   type: SetIO
-  #   output: Digital
-  #   pin: 0
-  #   state: 1
-
+    name: screw_p2_a1652.urp
   open_gripper_1:
     next_state_if_success: "return_to_home"
     next_state_if_fail: "FAIL"
