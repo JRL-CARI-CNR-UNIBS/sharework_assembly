@@ -35,7 +35,7 @@ class LinearGuide:
         self.stop()
         program=ur_dashboard_msgs.srv.LoadRequest()
         program.filename=req.filename
-        self.load(program)
+        load_res=self.load(program)
         self.play()
         rospy.sleep(0.5)
         while True:
@@ -53,9 +53,9 @@ class LinearGuide:
         cm_req.start_configuration="trajectory_tracking"
         cm_res=self.config_client(cm_req)
 
-        res=std_srvs.srv.TriggerResponse()
+        res=ur_dashboard_msgs.srv.LoadResponse()
         res.success=True
-        res.message="moved"
+        res.answer=load_res.answer
         return res
 
 

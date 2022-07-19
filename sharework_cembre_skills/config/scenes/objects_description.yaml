@@ -6,6 +6,11 @@ object_geometries:
     offset_quaternion: [ 0, 0, 0, 1 ]
     offset: [0, 0, 0]
 
+  back_protection:
+    color: [0.2,0.2,0.2, 0.4]
+    box:  [1.0,2.0,0.2]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0.0, 0.0, 0.0]
 
 
   blue_box:
