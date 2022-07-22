@@ -1,0 +1,38 @@
+outbound:
+  slots_group:
+  - {name: "P1_A1653"}
+  - {name: "P1_A1652_sx"}
+  - {name: "P1_A1652_dx"}
+  - {name: "P1_A1610"}
+  - {name: "P2_A1653"}
+  - {name: "P2_A1652_sx"}
+  - {name: "P2_A1652_dx"}
+  - {name: "P2_A1610"}
+  - {name: "box_sx"}
+  - {name: "box_dx"}
+
+  slots:
+
+  - {name: "P1_A1653",     slots_group: "P1_A1653",      frame: "table", max_objects: -1, position: [0.301, 0.501, 0.322], quaternion: [0.70717, 0.70717, 0.0, 0.0], approach_distance: [0, 0, -0.000], leave_distance: [0, 0, -0.000]}
+  - {name: "P1_A1652_sx",  slots_group: "P1_A1652_sx",   frame: "table", max_objects: -1, position: [0.299, 0.454, 0.364], quaternion: [0.70717, 0.70717, 0.0, 0.0], approach_distance: [0, 0, -0.000], leave_distance: [0, 0, -0.000]}
+  - {name: "P1_A1652_dx",  slots_group: "P1_A1652_dx",   frame: "table", max_objects: -1, position: [0.301, 0.547, 0.365], quaternion: [-0.707, 0.707, -0.000, 0.000], approach_distance: [0, 0, -0.00], leave_distance: [0, 0, -0.00]}
+  - {name: "P1_A1610",     slots_group: "P1_A1610",      frame: "table", max_objects: -1, position: [0.271, 0.568, 0.341], quaternion: [-0.004, 1.000, 0.022, 0.001], approach_distance: [0, 0, -0.00], leave_distance: [0, 0, -0.00]}
+  - {name: "P2_A1653",     slots_group: "P2_A1653",      frame: "table", max_objects: -1, position: [0.299, 1.500, 0.320], quaternion: [0.70717, 0.70717, 0.0, 0.0], approach_distance: [0, 0, -0.100], leave_distance: [0, 0, -0.100]}
+  - {name: "P2_A1652_sx",  slots_group: "P2_A1652_sx",   frame: "table", max_objects: -1, position: [0.299, 1.452, 0.363], quaternion: [0.70717, 0.70717, 0.0, 0.0], approach_distance: [0, 0, -0.000], leave_distance: [0, 0, -0.000]}
+  - {name: "P2_A1652_dx",  slots_group: "P2_A1652_dx",   frame: "table", max_objects: -1, position: [0.301, 1.548, 0.3615], quaternion: [-0.707, 0.707, -0.000, 0.000], approach_distance: [0, 0, -0.00], leave_distance: [0, 0, -0.00]}
+  - {name: "P2_A1610",     slots_group: "P2_A1610",      frame: "table", max_objects: -1, position: [0.270, 1.568, 0.340], quaternion: [-0.004, 1.000, 0.022, 0.001], approach_distance: [0, 0, -0.00], leave_distance: [0, 0, -0.00]}
+#
+  - {name: "box_sx_1",     slots_group: "box_sx",      frame: "table", max_objects: -1, position: [-0.353, 0.496, 0.148], quaternion: [1.0, 0.0, 0.0, 0.0], approach_distance: [0, 0, -0.00], leave_distance: [0, 0, -0.00]}
+  - {name: "box_dx_1",     slots_group: "box_dx",      frame: "table", max_objects: -1, position: [-0.353, 1.496, 0.148], quaternion: [1.0, 0.0, 0.0, 0.0], approach_distance: [0, 0, -0.00], leave_distance: [0, 0, -0.00]}
+
+
+
+  # - {name: "A1",              slots_group: "group_A",   frame: "table", max_objects: -1, position: [0.490, 0.408, 0.26], quaternion: [0.7071068, -0.7071068, 0.000, 0.000], approach_distance: [0, 0, -0.100], leave_distance: [0, 0, -0.100]}
+  # - {name: "A2",              slots_group: "group_A",   frame: "table", max_objects: -1, position: [0.490, 0.408, 0.26], quaternion: [1,0,0,0],                             approach_distance: [0, 0, -0.100], leave_distance: [0, 0, -0.100]}
+  # - {name: "A3",              slots_group: "group_A",   frame: "table", max_objects: -1, position: [0.490, 0.408, 0.26], quaternion: [0.7071068,  0.7071068, 0.000, 0.000], approach_distance: [0, 0, -0.100], leave_distance: [0, 0, -0.100]}
+  # - {name: "B1",              slots_group: "group_B",   frame: "table", max_objects: -1, position: [0.490, 0.708, 0.26], quaternion: [1,0,0,0],                             approach_distance: [0, 0, -0.100], leave_distance: [0, 0, -0.100]}
+  # - {name: "B2",              slots_group: "group_B",   frame: "table", max_objects: -1, position: [0.490, 0.708, 0.26], quaternion: [0.7071068, -0.7071068, 0.000, 0.000], approach_distance: [0, 0, -0.100], leave_distance: [0, 0, -0.100]}
+  # - {name: "B3",              slots_group: "group_B",   frame: "table", max_objects: -1, position: [0.490, 0.708, 0.26], quaternion: [0.7071068,  0.7071068, 0.000, 0.000], approach_distance: [0, 0, -0.100], leave_distance: [0, 0, -0.100]}
+  # # - {name: "equipment_slot",  slots_group: "equipment", frame: "table", max_objects: -1, position: [0.490, 1.040, 0.26], quaternion: [0.7071068,  0.7071068, 0.000, 0.000], approach_distance: [0, 0, 0.100], leave_distance: [0, 0, 0.100]}
+  # - {name: "equipment_slot2", slots_group: "equipment", frame: "table", max_objects: -1, position: [0.326, 1.443, 0.25], quaternion: [0.0,  0.0, 0.000, 0.000],             approach_distance: [0, 0, 0.100], leave_distance: [0, 0, 0.100]}
+  # - {name: "equipment_slot",  slots_group: "equipment", frame: "table", max_objects: -1, position: [0.326, 1.44, 0.18],  quaternion: [1.0,  0.0, 0.000, 0.000],             approach_distance: [0, 0, 0.100], leave_distance: [0, 0, 0.100]}

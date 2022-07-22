@@ -1,0 +1,21 @@
+inbound:
+  objects:
+    - {type: "cylinder_1", frame: "table", position:  [0.54,  0.395, 0.001], quaternion: [0,0,0,1], inbound:    "cylinder_1_box"}
+    - {type: "cylinder_2", frame: "table", position:  [0.54,  0.54,  0.001], quaternion: [0,0,0,1], inbound:     "cylinder_2_box"}
+    - {type: "cylinder_3", frame: "table", position:  [0.54,  0.70,  0.001], quaternion: [0,0,0,1], inbound:     "cylinder_3_box"}
+    - {type: "cylinder_4", frame: "table", position:  [0.54,  0.845, 0.001], quaternion: [0,0,0,1], inbound:    "cylinder_4_box"}
+    - {type: "cylinder_5", frame: "table", position:  [0.54,  1.0,   0.001], quaternion: [0,0,0,1], inbound:      "cylinder_5_box"}
+    - {type: "cylinder_6", frame: "table", position:  [0.54,  1.15,  0.001], quaternion: [0,0,0,1], inbound:     "cylinder_6_box"}
+    - {type: "cylinder_7", frame: "table", position:  [0.54,  1.30,  0.001], quaternion: [0,0,0,1], inbound:     "cylinder_7_box"}
+    - {type: "cylinder_8", frame: "table", position:  [0.54,  1.45,  0.001], quaternion: [0,0,0,1], inbound:     "cylinder_8_box"}
+    - {type: "cylinder_9", frame: "table", position:  [0.54,  1.60,  0.001], quaternion: [0,0,0,1], inbound:     "cylinder_9_box"}
+    - {type: "cylinder_10", frame: "table", position: [0.06,  0.39,  0.001], quaternion: [0,0,0,1], inbound:    "cylinder_10_box"}
+    - {type: "cylinder_11", frame: "table", position: [0.06,  0.55,  0.001], quaternion: [0,0,0,1], inbound:    "cylinder_11_box"}
+    - {type: "cylinder_12", frame: "table", position: [0.06,  0.70,  0.001], quaternion: [0,0,0,1], inbound:    "cylinder_12_box"}
+    - {type: "cylinder_13", frame: "table", position: [0.06,  0.85,  0.001], quaternion: [0,0,0,1], inbound:    "cylinder_13_box"}
+    - {type: "cylinder_14", frame: "table", position: [0.06,  0.995, 0.001], quaternion: [0,0,0,1], inbound:   "cylinder_14_box"}
+    - {type: "cylinder_15", frame: "table", position: [0.06,  1.15,  0.001], quaternion: [0,0,0,1], inbound:    "cylinder_15_box"}
+    - {type: "cylinder_16", frame: "table", position: [0.06,  1.295, 0.001], quaternion: [0,0,0,1], inbound:   "cylinder_16_box"}
+    - {type: "cylinder_17", frame: "table", position: [0.06,  1.465, 0.001], quaternion: [0,0,0,1], inbound:   "cylinder_17_box"}
+    - {type: "cylinder_18", frame: "table", position: [0.06,  1.62,  0.001], quaternion: [0,0,0,1], inbound:    "cylinder_18_box"}
+    - {type: "cylinder_19", frame: "table", position: [0.06,  1.82,  0.001], quaternion: [0,0,0,1]   , inbound: "cylinder_19_box"}

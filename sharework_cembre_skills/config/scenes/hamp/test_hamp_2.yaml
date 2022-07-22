@@ -1,0 +1,20 @@
+scene_objects:
+- {type: "cylinder_1", frame: "table", position: [0.54,  0.395, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_2", frame: "table", position: [0.54,  0.54, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_3", frame: "table", position: [0.54,  0.70, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_4", frame: "table", position: [0.54,  0.845, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_5", frame: "table", position: [0.54,  1.0, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_6", frame: "table", position: [0.54,  1.15, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_7", frame: "table", position: [0.54,  1.30, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_8", frame: "table", position: [0.54,  1.45, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_9", frame: "table", position: [0.54,  1.60, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_10", frame: "table", position: [0.06,  0.39, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_11", frame: "table", position: [0.06,  0.55, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_12", frame: "table", position: [0.06,  0.70, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_13", frame: "table", position: [0.06,  0.85, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_14", frame: "table", position: [0.06,  0.995, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_15", frame: "table", position: [0.06,  1.15, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_16", frame: "table", position: [0.06,  1.295, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_17", frame: "table", position: [0.06,  1.465, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_18", frame: "table", position: [0.06,  1.62, 0.0], quaternion: [0,0,0,1]}
+- {type: "cylinder_19", frame: "table", position: [0.06,  1.82, 0.0], quaternion: [0,0,0,1]}

@@ -12,7 +12,6 @@ object_geometries:
     offset_quaternion: [ 0, 0, 0, 1 ]
     offset: [0.0, 0.0, 0.0]
 
-
   blue_box:
     color: [1,1,1,0.3]
     box:  [0.5,0.7,0.12]
@@ -99,3 +98,117 @@ object_geometries:
     box:  [0.140, 0.140, 0.024]
     offset_quaternion: [ 0, 0, 0, 1 ]
     offset: [0, 0, 0.2]
+
+  cylinder_1:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_2:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_3:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_4:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_5:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_6:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_7:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_8:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_9:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_10:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_11:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_12:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_13:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_14:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_15:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_16:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_17:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_18:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]
+
+  cylinder_19:
+    color: [1, 1, 0, 1]
+    box:  [0.04,0.04,0.175]
+    offset_quaternion: [ 0, 0, 0, 1 ]
+    offset: [0, 0, 0.09]

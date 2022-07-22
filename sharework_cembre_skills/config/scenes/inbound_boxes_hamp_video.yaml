@@ -1,0 +1,25 @@
+inbound:
+  boxes:
+  - {name: "Storage0_A1652",                  frame: "table", position: [-0.255, 0.492, 0.17], quaternion: [1.0, 0.0, 0.0, 0.0], approach_distance: [0, 0, -0.05], leave_distance: [0, 0, -0.005]}
+  - {name: "Storage1_A1610",                  frame: "table", position: [-0.262, 0.703, 0.274], quaternion: [0.699, 0.715, 0.009, 0.008], approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "Storage2_A1653",                  frame: "table", position: [-0.324, 0.851, 0.281], quaternion: [0.100, 0.995, -0.016, -0.025], approach_distance: [0, 0, -0.00], leave_distance: [0, 0, -0.000]}
+#
+  - {name: "cylinder_1_box", frame: "table", position:  [0.54,  0.395, 0.25], quaternion: [1,0,0,0]  , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_2_box", frame: "table", position:  [0.54,  0.54,  0.25], quaternion: [1,0,0,0]   , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_3_box", frame: "table", position:  [0.54,  0.70,  0.25], quaternion: [1,0,0,0]   , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_4_box", frame: "table", position:  [0.54,  0.845, 0.25], quaternion: [1,0,0,0]  , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_5_box", frame: "table", position:  [0.54,  1.0,   0.25], quaternion: [1,0,0,0]    , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_6_box", frame: "table", position:  [0.54,  1.15,  0.25], quaternion: [1,0,0,0]   , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_7_box", frame: "table", position:  [0.54,  1.30,  0.25], quaternion: [1,0,0,0]   , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_8_box", frame: "table", position:  [0.54,  1.45,  0.25], quaternion: [1,0,0,0]   , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_9_box", frame: "table", position:  [0.54,  1.60,  0.25], quaternion: [1,0,0,0]   , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_10_box", frame: "table", position: [0.06,  0.39,  0.25], quaternion: [1,0,0,0]  , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_11_box", frame: "table", position: [0.06,  0.55,  0.25], quaternion: [1,0,0,0]  , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_12_box", frame: "table", position: [0.06,  0.70,  0.25], quaternion: [1,0,0,0]  , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_13_box", frame: "table", position: [0.06,  0.85,  0.25], quaternion: [1,0,0,0]  , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_14_box", frame: "table", position: [0.06,  0.995, 0.25], quaternion: [1,0,0,0] , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_15_box", frame: "table", position: [0.06,  1.15,  0.25], quaternion: [1,0,0,0]  , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_16_box", frame: "table", position: [0.06,  1.295, 0.25], quaternion: [1,0,0,0] , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_17_box", frame: "table", position: [0.06,  1.465, 0.25], quaternion: [1,0,0,0] , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_18_box", frame: "table", position: [0.06,  1.62,  0.25], quaternion: [1,0,0,0]  , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "cylinder_19_box", frame: "table", position: [0.06,  1.82,  0.25], quaternion: [1,0,0,0]  , approach_distance: [0, 0, -0.0], leave_distance: [0, 0, -0.00]}
