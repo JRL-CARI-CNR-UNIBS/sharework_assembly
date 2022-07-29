@@ -1,0 +1,23 @@
+subjobs_list:
+  open_gripper:
+    next_state_if_success: "activate_io"
+    next_state_if_fail: "FAIL"
+    type: Gripper
+    position: 50
+    force: 100
+    velocity: 100
+  activate_io:
+    next_state_if_success: "close_gripper"
+    next_state_if_fail: "FAIL"
+    type: SetIO
+    output: Digital
+    pin: 0
+    state: 0
+  close_gripper:
+    next_state_if_success: "SUCCESS"
+    next_state_if_fail: "FAIL"
+    type: Gripper
+    position: 0
+    force: 100
+    velocity: 100
+initial_state: open_gripper

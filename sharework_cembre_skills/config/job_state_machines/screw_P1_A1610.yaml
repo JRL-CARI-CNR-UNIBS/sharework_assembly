@@ -47,12 +47,21 @@ subjobs_list:
     force: 100
     velocity: 100
   close_gripper_3:
-    next_state_if_success: "screw_p1"
+    next_state_if_success: "set_clockwise_rotation"
     next_state_if_fail: "FAIL"
     type: Gripper
     position: 0
     force: 100
     velocity: 100
+
+  set_clockwise_rotation:
+    next_state_if_success: "screw_p1"
+    next_state_if_fail: "FAIL"
+    type: SetIO
+    output: Digital
+    pin: 1
+    state: 0
+
   screw_p1:
     next_state_if_success: "open_gripper_1"
     next_state_if_fail: "FAIL"

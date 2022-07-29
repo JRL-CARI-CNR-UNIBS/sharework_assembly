@@ -55,23 +55,20 @@ subjobs_list:
     force: 100
     velocity: 100
 
+
   set_clockwise_rotation:
-    next_state_if_success: "screw_p1"
+    next_state_if_success: "screw_p2"
     next_state_if_fail: "FAIL"
     type: SetIO
     output: Digital
     pin: 1
     state: 0
 
-  screw_p1:
+  screw_p2:
     next_state_if_success: "open_gripper_1"
     next_state_if_fail: "FAIL"
     type: Script
-    name: screw_p1_a1653.urp
-    # name: screw_p1_a1653.urp
-    # name: screw_p2_a1653.urp
-    #name: torretta_sx.urp
-    #name: torretta_dx.urp
+    name: screw_p2_a1653.urp
   open_gripper_1:
     next_state_if_success: "return_to_home"
     next_state_if_fail: "FAIL"

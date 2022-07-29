@@ -32,6 +32,9 @@
 <arg name="baseline" value="$(arg baseline)"/>
 </include>
 
+<include file="$(find sharework_cembre_skills)/launch/recipes_sharework.launch">
+</include>
+
 <include file="$(find sharework_cembre_skills)/launch/ssm_job_executer.launch">
 </include>
 

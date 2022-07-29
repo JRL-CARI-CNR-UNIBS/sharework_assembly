@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+  <rosparam command="load" ns="mount_P1_A1610" file="$(find sharework_cembre_skills)/config/recipes/mount_P1_A1610.yaml"/>
+  <rosparam command="load" ns="mount_P1_A1652" file="$(find sharework_cembre_skills)/config/recipes/mount_P1_A1652.yaml"/>
+  <rosparam command="load" ns="mount_P1_A1653" file="$(find sharework_cembre_skills)/config/recipes/mount_P1_A1653.yaml"/>
+  <rosparam command="load" ns="mount_P2_A1610" file="$(find sharework_cembre_skills)/config/recipes/mount_P2_A1610.yaml"/>
+  <rosparam command="load" ns="mount_P2_A1652" file="$(find sharework_cembre_skills)/config/recipes/mount_P2_A1652.yaml"/>
+  <rosparam command="load" ns="mount_P2_A1653" file="$(find sharework_cembre_skills)/config/recipes/mount_P2_A1653.yaml"/>
+  <rosparam command="load" ns="unmount_P1_A1610" file="$(find sharework_cembre_skills)/config/recipes/unmount_P1_A1610.yaml"/>
+  <rosparam command="load" ns="unmount_P1_A1652" file="$(find sharework_cembre_skills)/config/recipes/unmount_P1_A1652.yaml"/>
+  <rosparam command="load" ns="unmount_P1_A1653" file="$(find sharework_cembre_skills)/config/recipes/unmount_P1_A1653.yaml"/>
+  <rosparam command="load" ns="unmount_P2_A1610" file="$(find sharework_cembre_skills)/config/recipes/unmount_P2_A1610.yaml"/>
+  <rosparam command="load" ns="unmount_P2_A1652" file="$(find sharework_cembre_skills)/config/recipes/unmount_P2_A1652.yaml"/>
+  <rosparam command="load" ns="unmount_P2_A1653" file="$(find sharework_cembre_skills)/config/recipes/unmount_P2_A1653.yaml"/>
+  <rosparam command="load" ns="screw_P1_A1610" file="$(find sharework_cembre_skills)/config/recipes/screw_P1_A1610.yaml"/>
+  <rosparam command="load" ns="screw_P1_A1652" file="$(find sharework_cembre_skills)/config/recipes/screw_P1_A1652.yaml"/>
+  <rosparam command="load" ns="screw_P1_A1653" file="$(find sharework_cembre_skills)/config/recipes/screw_P1_A1653.yaml"/>
+  <rosparam command="load" ns="screw_P2_A1610" file="$(find sharework_cembre_skills)/config/recipes/screw_P2_A1610.yaml"/>
+  <rosparam command="load" ns="screw_P2_A1653" file="$(find sharework_cembre_skills)/config/recipes/screw_P2_A1653.yaml"/>
+  <rosparam command="load" ns="unscrew_P1_A1610" file="$(find sharework_cembre_skills)/config/recipes/unscrew_P1_A1610.yaml"/>
+  <rosparam command="load" ns="unscrew_P1_A1652" file="$(find sharework_cembre_skills)/config/recipes/unscrew_P1_A1652.yaml"/>
+  <rosparam command="load" ns="unscrew_P1_A1653" file="$(find sharework_cembre_skills)/config/recipes/unscrew_P1_A1653.yaml"/>
+  <rosparam command="load" ns="unscrew_P2_A1610" file="$(find sharework_cembre_skills)/config/recipes/unscrew_P2_A1610.yaml"/>
+  <rosparam command="load" ns="unscrew_P2_A1653" file="$(find sharework_cembre_skills)/config/recipes/unscrew_P2_A1653.yaml"/>
+</launch>

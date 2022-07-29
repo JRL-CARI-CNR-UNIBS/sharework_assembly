@@ -1,89 +1,86 @@
 group_name: "manipulator"
 recipe:
-#- {action: "pick",   description: ["cylinder_2"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_10"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_11"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_9"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_19"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_8"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_18"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_7"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_3"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_12"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_4"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_17"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_6"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_16"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_15"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_5"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_13"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "pick",   description: ["cylinder_14"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-#
-- {action: "pick",   description: ["cylinder_5"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_4"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_6"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_13"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_14"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_15"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_3"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_2"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_10"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_11"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_12"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_7"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_8"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_16"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_9"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_17"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_18"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "pick",   description: ["cylinder_19"],  approach_loc_ctrl_id: "trajectory_tracking"  }
-- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  }
+#- {action: "pick",   description: ["cylinder_5"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_4"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_2"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_10"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_11"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_3"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+##- {action: "pick",   description: ["cylinder_6"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+##- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_9"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_19"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_8"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_18"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_7"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_12"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_13"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_14"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_17"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_16"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_15"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
 
+- {action: "pick",   description: ["cylinder_5"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_4"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "pick",   description: ["cylinder_6"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+#- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_13"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_14"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_15"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_3"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_2"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_10"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_11"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_12"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_sx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_7"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_8"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_16"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_9"],  approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_17"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "pick",   description: ["cylinder_18"],  approach_loc_ctrl_id: "trajectory_tracking" , property_exec_id: "pos_0_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
+- {action: "place",  description: ["box_dx"],      approach_loc_ctrl_id: "trajectory_tracking"  , property_exec_id: "pos_100_force_100_vel_100",   job_exec_name: "/robotiq_gripper"}
 
 
 
 #order of cylinders HAMP:
-#left: 1 2 10 11
+#left: 5 4 2 10 11 3
 #right: 9 19 8 18 7
-#left: 3 12 4
-#right 17 6 16 15
-#left: 5 13 14
+#left:  12 13 14
+#right 17 16 15
+#left:
 
 #order of cylinders non-hamp:
-#left: 5 4 6 13 14 15 3 2 1 10 11 12
+#left: 5 4 13 14 15 3 2 1 10 11 12
 #right: 7 8 16 9 17 18 19
