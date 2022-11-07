@@ -12,7 +12,7 @@ outbound:
   slots:
 
   - {name: "P1_A1653",     slots_group: "P1_A1653",      frame: "table", max_objects: -1, position: [0.301, 0.501, 0.322], quaternion: [0.70717, 0.70717, 0.0, 0.0], approach_distance: [0, 0, -0.000], leave_distance: [0, 0, -0.000]}
-  - {name: "P1_A1652_sx",  slots_group: "P1_A1652_sx",   frame: "table", max_objects: -1, position: [0.299, 0.454, 0.364], quaternion: [0.70717, 0.70717, 0.0, 0.0], approach_distance: [0, 0, -0.000], leave_distance: [0, 0, -0.000]}
+  - {name: "P1_A1652_sx",  slots_group: "P1_A1652_sx",   frame: "table", max_objects: -1, position: [0.299, 0.452, 0.364], quaternion: [0.70717, 0.70717, 0.0, 0.0], approach_distance: [0, 0, -0.000], leave_distance: [0, 0, -0.000]}
   - {name: "P1_A1652_dx",  slots_group: "P1_A1652_dx",   frame: "table", max_objects: -1, position: [0.301, 0.547, 0.365], quaternion: [-0.707, 0.707, -0.000, 0.000], approach_distance: [0, 0, -0.00], leave_distance: [0, 0, -0.00]}
   - {name: "P1_A1610",     slots_group: "P1_A1610",      frame: "table", max_objects: -1, position: [0.271, 0.568, 0.341], quaternion: [-0.004, 1.000, 0.022, 0.001], approach_distance: [0, 0, -0.00], leave_distance: [0, 0, -0.00]}
   - {name: "P2_A1653",     slots_group: "P2_A1653",      frame: "table", max_objects: -1, position: [0.299, 1.500, 0.320], quaternion: [0.70717, 0.70717, 0.0, 0.0], approach_distance: [0, 0, -0.100], leave_distance: [0, 0, -0.100]}

@@ -1,9 +1,9 @@
 group_name: "manipulator"
 recipe:
 - {action: "pick",   description: ["A1652"],  property_exec_id: "pick_A1652",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
-#- {action: "place",  description: ["P1_A1652_sx"],  property_exec_id: "mount_A1652_sx",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
-#- {action: "pick",   description: ["A1652"],  property_exec_id: "pick_A1652",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
-#- {action: "place",  description: ["P1_A1652_dx"],  property_exec_id: "mount_A1652_dx",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+- {action: "place",  description: ["P1_A1652_sx"],  property_exec_id: "mount_A1652_sx",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+- {action: "pick",   description: ["A1652"],  property_exec_id: "pick_A1652",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+- {action: "place",  description: ["P1_A1652_dx"],  property_exec_id: "mount_A1652_dx",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
 
 message: "Loading"
 position: 1

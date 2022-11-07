@@ -1,5 +1,5 @@
 inbound:
   boxes:
   - {name: "Storage0_A1652",                  frame: "storage_approach", position: [0.1915, 0.1201, -0.0308], quaternion: [1.0, 0.0, 0.0, 0.0], approach_distance: [0, 0, 0.0], leave_distance: [0, 0, 0]}
-  - {name: "Storage1_A1610",                  frame: "storage_approach", position: [0.2014, 0.3241, -0.0531], quaternion: [1.0, 0.0, 0.0, 0.0], approach_distance: [0, 0,    0.0], leave_distance: [0, 0, -0.00]}
+  - {name: "Storage1_A1610",                  frame: "storage_approach", position: [0.2014, 0.3241, -0.0531], quaternion: [0.7071, 0.7071, 0.0, 0.0], approach_distance: [0, 0,    0.0], leave_distance: [0, 0, -0.00]}
   - {name: "Storage2_A1653",                  frame: "storage_approach", position: [0.1916, 0.4641, -0.0472], quaternion: [1.0, 0.0, 0.0, 0.0], approach_distance: [0, 0,    0.0], leave_distance: [0, 0, -0.000]}
