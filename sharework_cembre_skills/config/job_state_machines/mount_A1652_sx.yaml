@@ -1,4 +1,9 @@
 subjobs_list:
+  mount:
+    next_state_if_success: "SUCCESS"
+    next_state_if_fail: "FAIL"
+    type: Script
+    name: "mount_a1652_sx.urp"
 
   close_gripper:
     next_state_if_success: "move_down_1"
@@ -59,4 +64,4 @@ subjobs_list:
     linear_velocity_mm_s: 35
 
 
-initial_state: close_gripper
+initial_state: mount

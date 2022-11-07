@@ -1,0 +1,8 @@
+subjobs_list: #21A1122
+  open_gripper:
+    next_state_if_success: "SUCCESS"
+    next_state_if_fail: "FAIL"
+    type: Script
+    name: "open_gripper.urp"
+
+initial_state: open_gripper

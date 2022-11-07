@@ -1,15 +1,15 @@
 inbound:
   objects:
-   - {type: "A1652",  frame: "table",   position: [-0.353, 0.496, 0.148], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
-   - {type: "A1652",  frame: "table",   position: [-0.315, 0.496, 0.147], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
-   - {type: "A1652",  frame: "table",   position: [-0.278, 0.496, 0.146], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
-   - {type: "A1652",  frame: "table",   position: [-0.239, 0.496, 0.144], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
-   - {type: "A1652",  frame: "table",   position: [-0.200, 0.496, 0.143], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
-   - {type: "A1652",  frame: "table",   position: [-0.161, 0.496, 0.141], quaternion: [1.0, 0.0, 0.0, 0.0], inbound: "Storage0_A1652"}
+   - {type: "A1652",  frame: "Storage0_A1652",   position: [-0.098, -0.074, -0.032],  quaternion: [0.000, 0.000, 0.000, 1.000], inbound: "Storage0_A1652"}
+   - {type: "A1652",  frame: "Storage0_A1652",   position: [-0.060, -0.074, -0.033],  quaternion: [0.000, 0.000, 0.000, 1.000], inbound: "Storage0_A1652"}
+   - {type: "A1652",  frame: "Storage0_A1652",   position: [-0.023, -0.074, -0.034],  quaternion: [0.000, 0.000, 0.000, 1.000], inbound: "Storage0_A1652"}
+   - {type: "A1652",  frame: "Storage0_A1652",   position: [ 0.016, -0.074, -0.036],  quaternion: [0.000, 0.000, 0.000, 1.000], inbound: "Storage0_A1652"}
+   - {type: "A1652",  frame: "Storage0_A1652",   position: [ 0.055, -0.074, -0.037],  quaternion: [0.000, 0.000, 0.000, 1.000], inbound: "Storage0_A1652"}
+   - {type: "A1652",  frame: "Storage0_A1652",   position: [ 0.094, -0.074, -0.039],  quaternion: [0.000, 0.000, 0.000, 1.000], inbound: "Storage0_A1652"}
 
-   - {type: "A1653",  frame: "table",   position: [-0.324, 0.851, 0.281], quaternion: [0.100, 0.995, -0.016, -0.025], inbound: "Storage2_A1653"}
-   - {type: "A1653",  frame: "table",   position: [-0.181, 0.850, 0.275], quaternion: [0.100, 0.995, -0.010, -0.009], inbound: "Storage2_A1653"} #-200Ztool
+   - {type: "A1653",  frame: "Storage2_A1653",   position: [ 0.000, 0.000,  0.000], quaternion: [0.000, 0.000, 0.000, 1.000], inbound: "Storage2_A1653"}
+   - {type: "A1653",  frame: "Storage2_A1653",   position: [-0.140, 0.028, -0.002], quaternion: [0.000, 0.000, 0.000, 1.000], inbound: "Storage2_A1653"} #-200Ztool
 
-   - {type: "A1610",  frame: "table",   position: [-0.189, 0.703, 0.271], quaternion: [0.699, 0.715, 0.009, 0.008], inbound: "Storage1_A1610"}
-   - {type: "A1610",  frame: "table",   position: [-0.265, 0.703, 0.274], quaternion: [0.699, 0.715, 0.009, 0.008], inbound: "Storage1_A1610"}
-   - {type: "A1610",  frame: "table",   position: [-0.346, 0.702, 0.278], quaternion: [0.699, 0.715, 0.009, 0.008], inbound: "Storage1_A1610"}
+   - {type: "A1610",  frame: "Storage1_A1610",   position: [-0.002, 0.073, -0.030], quaternion: [0.000, 0.000, 0.000, 1.000], inbound: "Storage1_A1610"}
+   - {type: "A1610",  frame: "Storage1_A1610",   position: [0.000, -0.003, -0.045], quaternion: [0.000, 0.000, 0.000, 1.000], inbound: "Storage1_A1610"}
+   - {type: "A1610",  frame: "Storage1_A1610",   position: [0.001, -0.084, -0.071], quaternion: [0.000, 0.000, 0.000, 1.000], inbound: "Storage1_A1610"}

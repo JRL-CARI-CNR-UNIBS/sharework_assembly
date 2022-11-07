@@ -112,7 +112,7 @@ manipulation_object_types:
 - {
       "type": "A1652",
       "grasp_poses": [{
-          "position": [0, 0, -0.060],
+          "position": [0, 0, -0.060], # qui c'era -0.06
           "quaternion": [0, 0, 0, 1],
           "approach_distance": [0, 0, -0.0],
           "leave_distance": [0, 0, -0.0],

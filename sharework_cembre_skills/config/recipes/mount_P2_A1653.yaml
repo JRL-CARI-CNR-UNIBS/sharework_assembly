@@ -3,12 +3,33 @@ recipe:
 # 21A1121
 - {action: "pick",   description: ["A1653"],     property_exec_id: "pick_A1653",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
 - {action: "place",  description: ["P2_A1653"],  property_exec_id: "mount_A1653",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
-- {action: "goto",   description: ["Storage_A1653_STAFFA_up"],  property_exec_id: "open",   job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
-- {action: "goto",   description: ["Storage_A1653_STAFFA_approach"],     property_exec_id: "open",   job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
-- {action: "goto",   description: ["Storage_A1653_STAFFA"],  property_exec_id: "close",   job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
-- {action: "goto",   description: ["Storage_A1653_STAFFA_approach"],     property_exec_id: "close",   job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
-- {action: "goto",   description: ["Storage_A1653_STAFFA_up"],  property_exec_id: "close",   job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+- {action: "goto",   description: ["Storage_A1653_STAFFA_up"],  property_exec_id: "",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+- {action: "goto",   description: ["Storage_A1653_STAFFA_approach"],     property_exec_id: "pick_staffa",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["Storage_A1653_STAFFA"],  property_exec_id: "close_gripper",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["Storage_A1653_STAFFA_approach"],     property_exec_id: "close_gripper",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+- {action: "goto",   description: ["Storage_A1653_STAFFA_up"],  property_exec_id: "close_gripper",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
 - {action: "goto",   description: ["mount_P2_A1653_STAFFA"],  property_exec_id: "mount_A1653_STAFFA",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+
+# - {action: "pick",   description: ["A1653"],     property_exec_id: "pick_A1653",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "place",  description: ["P2_A1653"],  property_exec_id: "mount_A1653",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["Storage_A1653_STAFFA_up"],  property_exec_id: "open_gripper",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["Storage_A1653_STAFFA_approach"],     property_exec_id: "open_gripper",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["Storage_A1653_STAFFA"],  property_exec_id: "close_gripper",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["Storage_A1653_STAFFA_approach"],     property_exec_id: "close_gripper",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["Storage_A1653_STAFFA_up"],  property_exec_id: "close_gripper",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["mount_P2_A1653_STAFFA"],  property_exec_id: "mount_A1653_STAFFA",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+
+
+
+# Old version without urp
+# - {action: "pick",   description: ["A1653"],     property_exec_id: "pick_A1653",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "place",  description: ["P2_A1653"],  property_exec_id: "mount_A1653",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["Storage_A1653_STAFFA_up"],  property_exec_id: "open",   job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["Storage_A1653_STAFFA_approach"],     property_exec_id: "open",   job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["Storage_A1653_STAFFA"],  property_exec_id: "close",   job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["Storage_A1653_STAFFA_approach"],     property_exec_id: "close",   job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["Storage_A1653_STAFFA_up"],  property_exec_id: "close",   job_exec_name: "/robotiq_gripper", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
+# - {action: "goto",   description: ["mount_P2_A1653_STAFFA"],  property_exec_id: "mount_A1653_STAFFA",   job_exec_name: "/ssm_job/exec", to_loc_ctrl_id: "trajectory_tracking", tool_id: "robotiq_simplified"}
 
 message: "Loading"
 position: 2

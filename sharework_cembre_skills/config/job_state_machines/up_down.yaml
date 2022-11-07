@@ -1,0 +1,19 @@
+
+subjobs_list:
+  move_down:
+    next_state_if_success: "move_up"
+    next_state_if_fail: "FAIL"
+    type: RelativeMove
+    frame: table
+    traZmm: -131
+    linear_velocity_mm_s: 60
+  move_up:
+    next_state_if_success: "move_down"
+    next_state_if_fail: "FAIL"
+    type: RelativeMove
+    frame: table
+    traZmm: 131
+    linear_velocity_mm_s: 60
+
+
+initial_state: move_up

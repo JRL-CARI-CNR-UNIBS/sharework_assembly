@@ -1,37 +1,15 @@
 subjobs_list:
-  gripper_close:
-    next_state_if_success: "move_down"
-    next_state_if_fail: "FAIL"
-    type: Gripper
-    position: 0
-    force: 100
-    velocity: 100
-  move_down:
-    next_state_if_success: "move_y"
-    next_state_if_fail: "FAIL"
-    type: RelativeMove
-    frame: table
-    traZmm: -147
-    linear_velocity_mm_s: 70
-  move_y:
-    next_state_if_success: "move_back"
-    next_state_if_fail: "FAIL"
-    type: RelativeMove
-    frame: table
-    traYmm: 52
-    linear_velocity_mm_s: 30
-  move_back:
-    next_state_if_success: "move_up"
-    next_state_if_fail: "FAIL"
-    type: RelativeMove
-    frame: table
-    traYmm: -5
-    linear_velocity_mm_s: 40
-  move_up:
+  close:
     next_state_if_success: "SUCCESS"
     next_state_if_fail: "FAIL"
-    type: RelativeMove
-    frame: table
-    traZmm: 150
-    linear_velocity_mm_s: 70
-initial_state: gripper_close
+    type: Script
+    name: "close_ganascia_a1610.urp"
+  # move_up:
+  #   next_state_if_success: "SUCCESS"
+  #   next_state_if_fail: "FAIL"
+  #   type: RelativeMove
+  #   frame: table
+  #   traZmm: 150
+  #   linear_velocity_mm_s: 50
+
+initial_state: close

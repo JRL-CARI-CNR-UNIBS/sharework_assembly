@@ -1,69 +1,96 @@
 subjobs_list:
-  move_down:
-    next_state_if_success: "seek"
-    next_state_if_fail: "FAIL"
-    type: RelativeMove
-    frame: table
-    traZmm: -150
-    linear_velocity_mm_s: 50
-  seek:
-    next_state_if_success: "push_y"
-    next_state_if_fail: "FAIL"
-    type: Touch
-    goal_twist: [0.0,0,-0.003,0,0,0]
-    goal_twist_frame: "world"
-    target_force: 20
-    relative_target: True
-    release_condition: "Position"
-    release_position: 0.0002
-  push_y:
-    next_state_if_success: "push_z"
-    next_state_if_fail: "FAIL"
-    type: Touch
-    goal_twist: [0.0,-0.003,0,0,0,0]
-    goal_twist_frame: "world"
-    target_force: 70
-    relative_target: True
-    release_condition: "Position"
-    release_position: 0.0001
-  push_x:
-    next_state_if_success: "push_z"
-    next_state_if_fail: "FAIL"
-    type: Touch
-    goal_twist: [-0.003,0,0.0,0,0,0]
-    goal_twist_frame: "world"
-    target_force: 50
-    relative_target: True
-    release_condition: "Position"
-    release_position: 0.00001
-  push_z:
-    next_state_if_success: "gripper_40"
-    next_state_if_fail: "FAIL"
-    type: Touch
-    goal_twist: [0.0,-0.0005,-0.003,0,0,0]
-    goal_twist_frame: "world"
-    target_force: 50
-    relative_target: True
-    release_condition: "Position"
-    release_position: 0.00001
-  gripper_40:
+
+  mount_object:
     next_state_if_success: "detach"
     next_state_if_fail: "FAIL"
-    type: Gripper
-    position: 40
-    force: 100
-    velocity: 100
-
+    type: Script
+    name: "mount_a1610.urp"
   detach:
-    next_state_if_success: "move_up"
+    next_state_if_success: "close"
     next_state_if_fail: "FAIL"
     type: Detach
-  move_up:
+  close:
     next_state_if_success: "SUCCESS"
     next_state_if_fail: "FAIL"
-    type: RelativeMove
-    frame: table
-    traZmm: 150
-    linear_velocity_mm_s: 50
+    type: Script
+    name: "mount_a1610_part2.urp"
+  # move_up:
+  #   next_state_if_success: "SUCCESS"
+  #   next_state_if_fail: "FAIL"
+  #   type: RelativeMove
+  #   frame: table
+  #   traZmm: 150
+  #   linear_velocity_mm_s: 50
 
-initial_state: move_down
+initial_state: mount_object
+
+
+#
+#   move_down:
+#     next_state_if_success: "seek"
+#     next_state_if_fail: "FAIL"
+#     type: RelativeMove
+#     frame: table
+#     traZmm: -150
+#     linear_velocity_mm_s: 50
+#   seek:
+#     next_state_if_success: "push_y"
+#     next_state_if_fail: "FAIL"
+#     type: Touch
+#     goal_twist: [0.0,0,-0.003,0,0,0]
+#     goal_twist_frame: "world"
+#     target_force: 30
+#     relative_target: True
+#     release_condition: "Position"
+#     release_position: 0.0002
+#   push_y:
+#     next_state_if_success: "push_z"
+#     next_state_if_fail: "FAIL"
+#     type: Touch
+#     goal_twist: [0.0,-0.003,0,0,0,0]
+#     goal_twist_frame: "world"
+#     target_force: 70
+#     relative_target: True
+#     release_condition: "Position"
+#     release_position: 0.0001
+#   push_x:
+#     next_state_if_success: "push_z"
+#     next_state_if_fail: "FAIL"
+#     type: Touch
+#     goal_twist: [-0.003,0,0.0,0,0,0]
+#     goal_twist_frame: "world"
+#     target_force: 50
+#     relative_target: True
+#     release_condition: "Position"
+#     release_position: 0.00001
+#   push_z:
+#     next_state_if_success: "gripper_40"
+#     next_state_if_fail: "FAIL"
+#     type: Touch
+#     goal_twist: [0.0,-0.0005,-0.003,0,0,0]
+#     goal_twist_frame: "world"
+#     target_force: 70
+#     relative_target: True
+#     release_condition: "Position"
+#     release_position: 0.00001
+#   gripper_40:
+#     next_state_if_success: "detach"
+#     next_state_if_fail: "FAIL"
+#     type: Gripper
+#     position: 40
+#     force: 100
+#     velocity: 100
+#
+#   detach:
+#     next_state_if_success: "move_up"
+#     next_state_if_fail: "FAIL"
+#     type: Detach
+#   move_up:
+#     next_state_if_success: "SUCCESS"
+#     next_state_if_fail: "FAIL"
+#     type: RelativeMove
+#     frame: table
+#     traZmm: 150
+#     linear_velocity_mm_s: 50
+#
+# initial_state: move_down

@@ -34,7 +34,17 @@
 
     <rosparam command="load" ns="pick_screwdriver" file="$(find sharework_cembre_skills)/config/job_state_machines/pick_screwdriver.yaml"/>
 
+    <rosparam command="load" ns="up_down" file="$(find sharework_cembre_skills)/config/job_state_machines/up_down.yaml"/>
+
     <rosparam command="load" ns="release"          file="$(find sharework_cembre_skills)/config/job_state_machines/release.yaml"/>
+
+    <rosparam command="load" ns="open_gripper" file="$(find sharework_cembre_skills)/config/job_state_machines/open_gripper.yaml"/>
+    <rosparam command="load" ns="close_gripper" file="$(find sharework_cembre_skills)/config/job_state_machines/close_gripper.yaml"/>
+    <rosparam command="load" ns="pick_staffa" file="$(find sharework_cembre_skills)/config/job_state_machines/pick_staffa.yaml"/>
+
+    <rosparam command="load" ns="release_staffa" file="$(find sharework_cembre_skills)/config/job_state_machines/release_staffa.yaml"/>
+
+
   </node>
 
 </launch>

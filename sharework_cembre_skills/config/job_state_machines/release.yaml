@@ -1,23 +1,38 @@
 subjobs_list:
-  move_down:
-    next_state_if_success: "open_gripper"
-    next_state_if_fail: "FAIL"
-    type: RelativeMove
-    frame: table
-    traZmm: -120
-    linear_velocity_mm_s: 50
-  open_gripper:
-    next_state_if_success: "move_up"
-    next_state_if_fail: "FAIL"
-    type: Gripper
-    position: 85
-    force: 100
-    velocity: 100
-  move_up:
+  # neutral:
+  #   next_state_if_success: "SUCCESS"
+  #   next_state_if_fail: "FAIL"
+  #   type: RelativeMove
+  #   frame: table
+  #   traZmm: 0
+  #   linear_velocity_mm_s: 0
+  release:
     next_state_if_success: "SUCCESS"
     next_state_if_fail: "FAIL"
-    type: RelativeMove
-    frame: table
-    traZmm: 120
-    linear_velocity_mm_s: 50
-initial_state: move_down
+    type: Script
+    name: "release.urp"
+  # move_down:
+  #   next_state_if_success: "open_gripper"
+  #   next_state_if_fail: "FAIL"
+  #   type: RelativeMove
+  #   frame: table
+  #   traZmm: -120
+  #   linear_velocity_mm_s: 50
+  # open_gripper:
+  #   next_state_if_success: "move_up"
+  #   next_state_if_fail: "FAIL"
+  #   type: Script
+  #   name: "open_gripper.urp"
+  #
+  #   # type: Gripper
+  #   # position: 85
+  #   # force: 100
+  #   # velocity: 100
+  # move_up:
+  #   next_state_if_success: "SUCCESS"
+  #   next_state_if_fail: "FAIL"
+  #   type: RelativeMove
+  #   frame: table
+  #   traZmm: 120
+  #   linear_velocity_mm_s: 50
+initial_state: release
