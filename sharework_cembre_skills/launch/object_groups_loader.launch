@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <launch>
 
+  <node pkg="tf" type="static_transform_publisher" name="table_to_box" args="-0.4500    0.1450    0.1350   -0.0009    0.0209   -0.0000    0.9998  table storage_box 100" />
+  <node pkg="tf" type="static_transform_publisher" name="box_to_approach" args="0 0 0.3 0 0 0 1  storage_box storage_approach 100" />
+
+
   <rosparam command="load" file="$(find sharework_cembre_skills)/config/scenes/objects_description.yaml"/>
 
   <node pkg="object_loader" name="object_groups" type="object_groups_loader.py" output="screen">

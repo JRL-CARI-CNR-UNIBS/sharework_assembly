@@ -84,7 +84,7 @@ object_geometries:
     color: [1, 1, 1, 1]
     box:  [0.080,0.070,0.009]
     offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0.2]
+    offset: [0, 0, 0.0]
 
   A1652:
     color: [1, 1, 1, 1]
@@ -97,7 +97,7 @@ object_geometries:
     #cylinder:  [0.140,0.024]
     box:  [0.140, 0.140, 0.024]
     offset_quaternion: [ 0, 0, 0, 1 ]
-    offset: [0, 0, 0.2]
+    offset: [0, 0, 0.0]
 
   cylinder_1:
     color: [1, 1, 0, 1]
