@@ -18,7 +18,7 @@ P2_A1653:
 
 
 storages:
-- {type: "blue_box",  frame: "table", position: [ -0.27, 0.6250, 0.0], quaternion: [0,0,0,1]}
+- {type: "blue_box",  frame: "storage_box", position: [ 0.25, 0.350, -0.12], quaternion: [0,0,0,1]}
 - {type: "blue_box",  frame: "table", position: [ -0.27, 1.601, 0.0], quaternion: [0,0,0,1]}
 - {type: "head_protection",  frame: "table", position: [ 0.8, 1.0, 0.5], quaternion: [0,0,0,1]}
 - {type: "back_protection",  frame: "world", position: [ -0.7, 0, 0.75], quaternion: [0,0,0,1]}
